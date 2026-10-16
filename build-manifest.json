@@ -1,7 +1,7 @@
 {
   "version": "1.0.12",
   "platform": "browser-webrtc",
-  "builtAt": "2026-10-16T19:57:18.786Z",
+  "builtAt": "2026-10-16T19:58:46.118Z",
   "signalingServer": false,
   "iceServers": [],
   "files": [
@@ -26,14 +26,14 @@
       "sha256": "6ee13965ac7e3d458dac94064b875da06ffcbfb98d27d9d05f2809ab673c9de1"
     },
     {
-      "file": "assets/index-CBWHn1ra.js",
-      "bytes": 1431196,
-      "sha256": "0445d41673a271d45fa9e1dfc687c007661e2f42634af05a0853f752b50c17b3"
+      "file": "assets/index-BVBGV2tv.js",
+      "bytes": 1431197,
+      "sha256": "7fbf595528852d52065e23d5ad6fbd55c694d086220c281f7e03873317f56364"
     },
     {
-      "file": "assets/jsQR-CH0J0ma-.js",
+      "file": "assets/jsQR-CPlGyeRn.js",
       "bytes": 129986,
-      "sha256": "9bbe02d2985c5083bafa5743768515631ec23852e3b6915814765a73cbe33d1f"
+      "sha256": "96baaacdfe2568a879140583e396d6ca0a48bb3fcd621d4291056306f79d7784"
     },
     {
       "file": "assets/pixelify-sans-latin-400-normal-JapMNN6Z.woff",
@@ -1973,12 +1973,12 @@
     {
       "file": "index.html",
       "bytes": 25552,
-      "sha256": "5b79f647a89044ddf7b45ef44e7f4c30b34aecb0b45867d42c2fdd677591be84"
+      "sha256": "e02d14f11f4b1ad16421cad8483d2fc6f0817a8b39e66182f4e7a441f027c6b2"
     },
     {
       "file": "offline-sw.js",
       "bytes": 13825,
-      "sha256": "7d1429743561baeae8f33659f16840ee425eda837a33f1565551775635778314"
+      "sha256": "9a504a7ed0e8841d4011b9540fa593db7a6dfddbfe249ac4e98a3d72d0079734"
     }
   ]
 }
