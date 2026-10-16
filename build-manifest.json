@@ -1,0 +1,1984 @@
+{
+  "version": "1.0.12",
+  "platform": "browser-webrtc",
+  "builtAt": "2026-10-16T19:57:18.786Z",
+  "signalingServer": false,
+  "iceServers": [],
+  "files": [
+    {
+      "file": "assets/bangers-latin-400-normal-BAEm-Pv0.woff",
+      "bytes": 20748,
+      "sha256": "3e4e64a81b2f0ecb19f94b548694743138db04403b6da4456ae85c87585fecf2"
+    },
+    {
+      "file": "assets/bangers-latin-400-normal-DeHY8Ncq.woff2",
+      "bytes": 23528,
+      "sha256": "04f54ff42ea2b8fc50b4259c29c60b1e05e606b769c2fb541c98624346c9767c"
+    },
+    {
+      "file": "assets/bangers-latin-ext-400-normal-7BLmjjiv.woff2",
+      "bytes": 17196,
+      "sha256": "2c9576bb1d612cf8750bf749689b5916287940fc99e1be5451b83d9fb6c4c5d9"
+    },
+    {
+      "file": "assets/bangers-latin-ext-400-normal-CzVt_Cgx.woff",
+      "bytes": 15376,
+      "sha256": "6ee13965ac7e3d458dac94064b875da06ffcbfb98d27d9d05f2809ab673c9de1"
+    },
+    {
+      "file": "assets/index-CBWHn1ra.js",
+      "bytes": 1431196,
+      "sha256": "0445d41673a271d45fa9e1dfc687c007661e2f42634af05a0853f752b50c17b3"
+    },
+    {
+      "file": "assets/jsQR-CH0J0ma-.js",
+      "bytes": 129986,
+      "sha256": "9bbe02d2985c5083bafa5743768515631ec23852e3b6915814765a73cbe33d1f"
+    },
+    {
+      "file": "assets/pixelify-sans-latin-400-normal-JapMNN6Z.woff",
+      "bytes": 10264,
+      "sha256": "60603c6e85cc8ba29a235657dfc0ff9012bae9adcdbc40cd9056a8cb68a9864c"
+    },
+    {
+      "file": "assets/style-CBxZqjyE.css",
+      "bytes": 186107,
+      "sha256": "fff14db3ce1c21153cc67cdd2649bd32a88396432b4e763ea5fc4836958de1cc"
+    },
+    {
+      "file": "audio/music/mus_cheddar.mp3",
+      "bytes": 1736796,
+      "sha256": "c16700a224d21fce9fb524b870acbf63b5fc3b6f8f5349638d15992306760ea3"
+    },
+    {
+      "file": "audio/music/mus_defeat.mp3",
+      "bytes": 2738164,
+      "sha256": "4a5f97f25ea6a1f3bfc44dd5ac5d5e883b134ae6e20cb5e2f1dad0a113953eb3"
+    },
+    {
+      "file": "audio/music/mus_frost.mp3",
+      "bytes": 2398051,
+      "sha256": "e8bc5490fb5db874bd90cba273c5550805bc5727ec10cd34c3955919834cc660"
+    },
+    {
+      "file": "audio/music/mus_garage.mp3",
+      "bytes": 1433388,
+      "sha256": "52b9c3bc29d71df81cc37f1714264b1c85bcb1b4838395436765fd1369dcf7fb"
+    },
+    {
+      "file": "audio/music/mus_mars.mp3",
+      "bytes": 2072193,
+      "sha256": "9b7ee589269ed18f371830f30b5bf696b6bf1ec159e5de2639794660f1f411b3"
+    },
+    {
+      "file": "audio/music/mus_menu.mp3",
+      "bytes": 1577744,
+      "sha256": "e29bc71776d2ad310955cdd526384efabd4584db64b438e4ad918272c9bea740"
+    },
+    {
+      "file": "audio/music/mus_neon.mp3",
+      "bytes": 2283034,
+      "sha256": "0a01f3e5f15796e8d910bab48224520c2d47f6eb565ba1e847f382d7ca465adf"
+    },
+    {
+      "file": "audio/music/mus_orbit.mp3",
+      "bytes": 2672499,
+      "sha256": "b48e18d68dcaad38aafa8a6fc0c6315bd5c7c52f95a0311b27d1d97b18dfff2a"
+    },
+    {
+      "file": "audio/music/mus_scrap.mp3",
+      "bytes": 2414530,
+      "sha256": "37f8edc10d17860583774563d06856ff623da6829983b7ef7b0d1a5adef966ec"
+    },
+    {
+      "file": "audio/music/mus_victory.mp3",
+      "bytes": 1432962,
+      "sha256": "945f14014507d6b8a18cd5ba6f7c26f04f162741f69c03f5bb2acc5fde8cd124"
+    },
+    {
+      "file": "audio/sfx/amb_cheddar.mp3",
+      "bytes": 117837,
+      "sha256": "7df66cb6e53764737252fb8ea7a7e3c06bd69f9810e7b5da803856d9b67445b1"
+    },
+    {
+      "file": "audio/sfx/amb_frost.mp3",
+      "bytes": 104006,
+      "sha256": "fcab1e381534f2f1527d008ca72bbe95acc64feefc2d02013c4050d8bf6d868a"
+    },
+    {
+      "file": "audio/sfx/amb_mars.mp3",
+      "bytes": 101595,
+      "sha256": "cfa110e16cbda0331f06ea23bc58611365ef9a5f40ccba31b9c22202981d37db"
+    },
+    {
+      "file": "audio/sfx/amb_neon.mp3",
+      "bytes": 97018,
+      "sha256": "2c405b683e481d2c48e9db0f8bb01d6cba32cc06d77bb813845e95527a48935d"
+    },
+    {
+      "file": "audio/sfx/amb_orbit.mp3",
+      "bytes": 51788,
+      "sha256": "5e361f67955c45be18a299065adc7d6daf2346ecea8ff476b6cd2d26c4f6ebfb"
+    },
+    {
+      "file": "audio/sfx/amb_scrap.mp3",
+      "bytes": 103126,
+      "sha256": "c9304624aa7883f83ab6cae78c7ae4622fcc6c39212bc6debf92630023b1bc39"
+    },
+    {
+      "file": "audio/sfx/boostpad_1.mp3",
+      "bytes": 12143,
+      "sha256": "259c5c5916d03aeb10b57c812e178b3e29a544dcc1326808bee0c0639ac43b21"
+    },
+    {
+      "file": "audio/sfx/boostpad_2.mp3",
+      "bytes": 5410,
+      "sha256": "4e4beb3546a5be797eca367eeb1c3d4f5e29c6e08a5aa91037e83851fd97b29c"
+    },
+    {
+      "file": "audio/sfx/bullet_whizz.mp3",
+      "bytes": 5335,
+      "sha256": "857aa3b637a1d46a40c75fe1123034f539e422da98cd6250ec30d37223c4cf33"
+    },
+    {
+      "file": "audio/sfx/car_wreck_1.mp3",
+      "bytes": 25476,
+      "sha256": "0e2cff1572a0cb70b2cc28a4ef17250298f3b2465b613be04d573c3af555834a"
+    },
+    {
+      "file": "audio/sfx/car_wreck_2.mp3",
+      "bytes": 25323,
+      "sha256": "6ede51356b95aa8a6c2e09f157daf64c46b27ace7e2a0178547c2c8bbc277ad0"
+    },
+    {
+      "file": "audio/sfx/count_beep.mp3",
+      "bytes": 2208,
+      "sha256": "64389fb98146c72c176dbe947ce8c59fdb9136db832e0c15df29c2b085dad8c2"
+    },
+    {
+      "file": "audio/sfx/count_go.mp3",
+      "bytes": 16448,
+      "sha256": "b3a50c2f0a81cbc93366392167bdf24c8d259bddb7063305b012b89f8532d500"
+    },
+    {
+      "file": "audio/sfx/crate_break_1.mp3",
+      "bytes": 8404,
+      "sha256": "4fb6319d3d3101484051aa10f4ea5ee0ee600a0e8e65c659210e65bd704516f0"
+    },
+    {
+      "file": "audio/sfx/crate_break_2.mp3",
+      "bytes": 8454,
+      "sha256": "6bf2ba7f1bb43b3a741de7e49cdfb4d86135d806823535bd5bf6106acfbb22d5"
+    },
+    {
+      "file": "audio/sfx/crowd_aww.mp3",
+      "bytes": 14840,
+      "sha256": "a954bbfdce640523bf4e3fe2c276ecc2a20c7d9672ddc3a15c65fbaf59681d1d"
+    },
+    {
+      "file": "audio/sfx/crowd_cheer_1.mp3",
+      "bytes": 53249,
+      "sha256": "2aad4b02c94bbb8fc703eda386c070b3508d9b3230319c5524d21513b216415e"
+    },
+    {
+      "file": "audio/sfx/crowd_cheer_2.mp3",
+      "bytes": 48412,
+      "sha256": "ccbc4f2313d7178f77ac2e3f4117d41900efc8511e42f68fbf8bdf48229a2a3d"
+    },
+    {
+      "file": "audio/sfx/crowd_loop.mp3",
+      "bytes": 104521,
+      "sha256": "bbfe798c2961dc09f03ab792218fe21a081d900eadc54b11d9c0f6f73fc338a9"
+    },
+    {
+      "file": "audio/sfx/crowd_ooh_1.mp3",
+      "bytes": 22852,
+      "sha256": "39ee36c796b35416306bd449537e4c97a73ca9c0a4331025d17ec30d63245f59"
+    },
+    {
+      "file": "audio/sfx/crowd_ooh_2.mp3",
+      "bytes": 22668,
+      "sha256": "6c6f674d32ec5dfe4201c260f9be21737661876f96411527e10704b0e8f745ba"
+    },
+    {
+      "file": "audio/sfx/dry_fire.mp3",
+      "bytes": 5746,
+      "sha256": "038a024075395e51a64a5a729740f17482a2d777dbea21d7330811e11a48efff"
+    },
+    {
+      "file": "audio/sfx/eng_bike.mp3",
+      "bytes": 24387,
+      "sha256": "5af169a108c06846934304ae6f07e86ca7f8e48a58b51e51402768cc1b6ba0e7"
+    },
+    {
+      "file": "audio/sfx/eng_bike_hi.mp3",
+      "bytes": 32060,
+      "sha256": "edc9c5403ed02acc3b19249a9d2f2e6514b0cd988e623e4cee3f0d8d6e099898"
+    },
+    {
+      "file": "audio/sfx/eng_bike_lo.mp3",
+      "bytes": 32429,
+      "sha256": "19c9fa50e51f0fe8e4132837344c3d92f89cc8207c6de69766d45b75eaac4e67"
+    },
+    {
+      "file": "audio/sfx/eng_buggy.mp3",
+      "bytes": 26807,
+      "sha256": "a07d11a77ae307ca6afc2dea73a237a16f1436b4b4442b179dfab05d0bef8086"
+    },
+    {
+      "file": "audio/sfx/eng_buggy_hi.mp3",
+      "bytes": 32326,
+      "sha256": "424e62c3f913c449562c4a57241c3413a86f8daf24fe593be944223850906a20"
+    },
+    {
+      "file": "audio/sfx/eng_buggy_lo.mp3",
+      "bytes": 34858,
+      "sha256": "ee600cc3c955d13c16522a2231d8098fbfd5b4661a1116966dfb0b29086ce1bd"
+    },
+    {
+      "file": "audio/sfx/eng_hotrod.mp3",
+      "bytes": 28001,
+      "sha256": "33ae3459cfd17429c90ceeb979edcad748ac969b8f0875bbf45b3b6316e8bae7"
+    },
+    {
+      "file": "audio/sfx/eng_hotrod_hi.mp3",
+      "bytes": 35307,
+      "sha256": "ed2e62d2ca2d812f5317c93808e5de0cd964a23bb2b0346aa17b20a4b5fe42fa"
+    },
+    {
+      "file": "audio/sfx/eng_hotrod_lo.mp3",
+      "bytes": 32005,
+      "sha256": "431a458bd45939098c7f9bde7cf7f567c3587e38381d52f4ba12728728818ef1"
+    },
+    {
+      "file": "audio/sfx/eng_tank.mp3",
+      "bytes": 19288,
+      "sha256": "7ea7807f656c84e70778273f92065346c243036c46f664bdb3f1a67e041d7272"
+    },
+    {
+      "file": "audio/sfx/eng_tank_hi.mp3",
+      "bytes": 30208,
+      "sha256": "233eaaffe51249fe461d94b6d883ab33595ec6cd71069331d05ef1d76bb6b79b"
+    },
+    {
+      "file": "audio/sfx/eng_tank_lo.mp3",
+      "bytes": 30151,
+      "sha256": "e63c71f6747e525dade87610e886e5150054ea0b89c4f0c60c831b55096b4aad"
+    },
+    {
+      "file": "audio/sfx/eng_truck.mp3",
+      "bytes": 24130,
+      "sha256": "e0ab6d023288874e500f17a71d5f7631430c8c7a0cc49a2b3c275ef5a5f71137"
+    },
+    {
+      "file": "audio/sfx/eng_truck_hi.mp3",
+      "bytes": 31212,
+      "sha256": "685dbf6f5e77b227917ee3bb0e0109d51f03b7cadbee0a097b0abe85f614f518"
+    },
+    {
+      "file": "audio/sfx/eng_truck_lo.mp3",
+      "bytes": 32643,
+      "sha256": "2821bcfc98c8365ba8cc64aa0fc5483f978780ef3af3fbcfdfef15456ce8f7fb"
+    },
+    {
+      "file": "audio/sfx/eng_van.mp3",
+      "bytes": 22964,
+      "sha256": "2dbdb56a0ff0b7deac9949b1bdb633e8d71178785d1e8bbe487483f6dd510a1d"
+    },
+    {
+      "file": "audio/sfx/eng_van_hi.mp3",
+      "bytes": 31530,
+      "sha256": "f5296ef0dd8a407808f845e2a53749e9e7ad9fe2dcf88288c41e1966e623401b"
+    },
+    {
+      "file": "audio/sfx/eng_van_lo.mp3",
+      "bytes": 31001,
+      "sha256": "483597e9a0130c1710f44cbb451eb96c0dbec8557f69cd0788d9925ba82d2906"
+    },
+    {
+      "file": "audio/sfx/explode_big_1.mp3",
+      "bytes": 14426,
+      "sha256": "ca5b8338de30a0a7a35ec5a1c0d24fa20ef63402d4250a782d5c0b25d6805d47"
+    },
+    {
+      "file": "audio/sfx/explode_big_2.mp3",
+      "bytes": 13100,
+      "sha256": "15d8e158d2191b8049b26fc604564bab4d6bbd64ba3e7b17c19a622cec4198f5"
+    },
+    {
+      "file": "audio/sfx/explode_big_3.mp3",
+      "bytes": 12192,
+      "sha256": "b05c3c80a3a71bb0bace1739b20174c49a4c6b7d5b03e8514ca1f80c04072b06"
+    },
+    {
+      "file": "audio/sfx/explode_small_1.mp3",
+      "bytes": 11956,
+      "sha256": "8415bf9e5a186dce47cff4edaf3698f0983beaeb4ddeb578cba2ecaa157908f9"
+    },
+    {
+      "file": "audio/sfx/explode_small_2.mp3",
+      "bytes": 10474,
+      "sha256": "43349cd21d2b6fd6b31d6a5daf017acf988e731159314ad21f7d6ddc866fa20c"
+    },
+    {
+      "file": "audio/sfx/final_lap.mp3",
+      "bytes": 17810,
+      "sha256": "d46c42f8aa18077d41a373e9acdf6d9f067f7f5fac65b572aa0756e5ead196f4"
+    },
+    {
+      "file": "audio/sfx/finish_line.mp3",
+      "bytes": 37921,
+      "sha256": "65526187405c43629c99cc3af363af2a8255c9f19a046eefdcd21707f026becd"
+    },
+    {
+      "file": "audio/sfx/flamer_loop.mp3",
+      "bytes": 26168,
+      "sha256": "cb9ee1126771c03580f55c753ed6cef76f045fb20220d7670217fe53d4ec3a53"
+    },
+    {
+      "file": "audio/sfx/flamer_start.mp3",
+      "bytes": 7316,
+      "sha256": "01876742043f9eb40ee9e54ab510df69ad1f2633ea12384c11afcfb34aadc98b"
+    },
+    {
+      "file": "audio/sfx/hit_bullet_1.mp3",
+      "bytes": 5536,
+      "sha256": "7af78231618a6a5410f57434eff47710ffb219bb68e64bcb64fda47923222058"
+    },
+    {
+      "file": "audio/sfx/hit_bullet_2.mp3",
+      "bytes": 4339,
+      "sha256": "052f28bafe0d39cbedfe4dd63378860bea0b14dd0275794c8925531ef8d38e75"
+    },
+    {
+      "file": "audio/sfx/hit_bullet_3.mp3",
+      "bytes": 3274,
+      "sha256": "50dd1e4c3c3a9c0df0d0e97452e235fd210d06bb962eac4490d3b0d0d274b481"
+    },
+    {
+      "file": "audio/sfx/hit_bullet_4.mp3",
+      "bytes": 3117,
+      "sha256": "bc742e9f0e5177bb974f43f089bb98009a796912c74892dc5ce2ccd9897cf795"
+    },
+    {
+      "file": "audio/sfx/hit_confirm_1.mp3",
+      "bytes": 3875,
+      "sha256": "bb589ba508c208a26d4f16ab9cea248d0d5d36fa0b15055a8cea067a36223e0a"
+    },
+    {
+      "file": "audio/sfx/hit_confirm_2.mp3",
+      "bytes": 8020,
+      "sha256": "d0e6e12af5b42c55a82a03ca0e1d04b1efacffe4e1258c396eea5d66a04b3926"
+    },
+    {
+      "file": "audio/sfx/hit_fire_1.mp3",
+      "bytes": 5457,
+      "sha256": "7b755b437d0bef7fced59176547f1c37db8cf6581eaeebb4fb86a0315a1f50ef"
+    },
+    {
+      "file": "audio/sfx/hit_fire_2.mp3",
+      "bytes": 11021,
+      "sha256": "9f6d0a395272b9f2410524326fe12adbbed69c48e67d665c420e547be4f2b272"
+    },
+    {
+      "file": "audio/sfx/hit_heavy_1.mp3",
+      "bytes": 8458,
+      "sha256": "58c140d2d3d8cded0364d29a55d4037514e2e1eb78e352528d6f45f52a634976"
+    },
+    {
+      "file": "audio/sfx/hit_heavy_2.mp3",
+      "bytes": 5902,
+      "sha256": "bc9ad5ff6c05908d4225d698210a5239761756bd4727f92a9955dedc7d445fff"
+    },
+    {
+      "file": "audio/sfx/hit_heavy_3.mp3",
+      "bytes": 2439,
+      "sha256": "a4476cf46c5fb627d7938c39b7f520fc052c5765ab113d6e4c98a85f7860a3e4"
+    },
+    {
+      "file": "audio/sfx/hit_laser_1.mp3",
+      "bytes": 5362,
+      "sha256": "a6b290df97bafd5232c0d9d1b295b00cff800c757d726942debbdd371aa69cf0"
+    },
+    {
+      "file": "audio/sfx/hit_laser_2.mp3",
+      "bytes": 4393,
+      "sha256": "d9a3fa67300ad565bfdb8d04737ae16632574e0e296bb2e511366035b0ed8bf7"
+    },
+    {
+      "file": "audio/sfx/hurt_player_1.mp3",
+      "bytes": 6316,
+      "sha256": "2f39e20556e69066a87535f3e06adca902a6c0e40ac8104ab3a02618d701bbfb"
+    },
+    {
+      "file": "audio/sfx/hurt_player_2.mp3",
+      "bytes": 8791,
+      "sha256": "214ba67016e4e97e475ac8f3f7c1f2cb03f7efb9e8b4b0aa66820fa8eef96496"
+    },
+    {
+      "file": "audio/sfx/hz_cheese_1.mp3",
+      "bytes": 10263,
+      "sha256": "b077223840a1e33e794c5fedfa3f99dabdec7be3687b1e715b0e07e4461a881f"
+    },
+    {
+      "file": "audio/sfx/hz_cheese_2.mp3",
+      "bytes": 10812,
+      "sha256": "06b23a0532179eb462481361e5300bc3cac11248c9ae085605db0b070ec581b5"
+    },
+    {
+      "file": "audio/sfx/hz_cookie.mp3",
+      "bytes": 3642,
+      "sha256": "44b3b68e89e849712a07bfe53d730e6db8f1b3cf53102721c58eb2039bb3c20e"
+    },
+    {
+      "file": "audio/sfx/hz_electric.mp3",
+      "bytes": 11700,
+      "sha256": "647ca5ab3e79dd14aaaabcb63821087200825b2c1488624a43867da00681c067"
+    },
+    {
+      "file": "audio/sfx/hz_ice.mp3",
+      "bytes": 11543,
+      "sha256": "ffbecd9f4e75d3fab92c60c23afef543ecb1c3191a599c9b3f35b176529613c2"
+    },
+    {
+      "file": "audio/sfx/hz_lava.mp3",
+      "bytes": 14868,
+      "sha256": "5f565ab8c9f9148fc01436ae8326a7b541b3de6e62da5e77653d5193ab9835b0"
+    },
+    {
+      "file": "audio/sfx/hz_oil.mp3",
+      "bytes": 7319,
+      "sha256": "4b3e9314b445110b9c06a5a1de8f72e349f424f5e9722721e6c763ea7a9be8ed"
+    },
+    {
+      "file": "audio/sfx/hz_void_1.mp3",
+      "bytes": 10593,
+      "sha256": "29d6ba63e1fdb275949ccbca9e0b23b32a2479ed688c8cff3b256285fee5512d"
+    },
+    {
+      "file": "audio/sfx/hz_void_2.mp3",
+      "bytes": 14392,
+      "sha256": "c43589f020667090793ec67ff2a98d31c70b60d71d68be2b87a33a209c51a2f3"
+    },
+    {
+      "file": "audio/sfx/jump.mp3",
+      "bytes": 11630,
+      "sha256": "96f96c1ef1ff19b62aae00b27e8accabef62943ad20dcf23f23e333a3e8e9483"
+    },
+    {
+      "file": "audio/sfx/land_heavy_1.mp3",
+      "bytes": 10359,
+      "sha256": "d5bfa84cbd927a622bb884767d3cd8e4e1c5371863e22b5102edb2cc325f3695"
+    },
+    {
+      "file": "audio/sfx/land_heavy_2.mp3",
+      "bytes": 8760,
+      "sha256": "893046436744d2e741794a70800ffb67c06c997c2e21f3ae9e66caaa1d7bf0f7"
+    },
+    {
+      "file": "audio/sfx/land_light_1.mp3",
+      "bytes": 8738,
+      "sha256": "5de13b251eb0c1004f684a8389732f3d41bb82d8dbaaa20bfe8a5daf0aa84425"
+    },
+    {
+      "file": "audio/sfx/land_light_2.mp3",
+      "bytes": 9205,
+      "sha256": "dffac6a2e282c26cf6448349f2e85a60c6b97665dca8f8dbf42e95419cd6f8de"
+    },
+    {
+      "file": "audio/sfx/lap_pass.mp3",
+      "bytes": 3220,
+      "sha256": "520f6bef2b2774f5195a283bc37f66cadc18ed4fe3efbe02ceb44f3086372ffe"
+    },
+    {
+      "file": "audio/sfx/lowhp_loop.mp3",
+      "bytes": 13074,
+      "sha256": "cc5fb1480a5f0247851b5e2e28709d319e617125108ac1142afa9b43e33853bc"
+    },
+    {
+      "file": "audio/sfx/lowhp_warn_1.mp3",
+      "bytes": 5126,
+      "sha256": "2c7766208eaf9534904498411988a879b7eed3b29b796f2acc1480bee67a542e"
+    },
+    {
+      "file": "audio/sfx/lowhp_warn_2.mp3",
+      "bytes": 5558,
+      "sha256": "7f058b46a6ea0428734f2459e17653b0ce0dd40b5efb7ceb285e861ffc06266e"
+    },
+    {
+      "file": "audio/sfx/meta_achievement.mp3",
+      "bytes": 10637,
+      "sha256": "1a0a68d0b47e13090c27fe55fc501cbc2da1d64250fc1b2a6b9f7b7fb2a342bd"
+    },
+    {
+      "file": "audio/sfx/meta_achievement_progress.mp3",
+      "bytes": 1503,
+      "sha256": "8d51837eddd6298a10741055164805b9c9aaf9cbd56eabfdc7e757337aba6966"
+    },
+    {
+      "file": "audio/sfx/meta_coin.mp3",
+      "bytes": 9615,
+      "sha256": "e3cca509c73501179e725f45ee21c280e7b125f190d5702f5d2d7c47fcea9be4"
+    },
+    {
+      "file": "audio/sfx/meta_coin_tally_1.mp3",
+      "bytes": 4314,
+      "sha256": "3ccdee2daca81620ea6ac6c37a1e79539ee9af5c57961eb62935c9a054b7c774"
+    },
+    {
+      "file": "audio/sfx/meta_coin_tally_2.mp3",
+      "bytes": 7733,
+      "sha256": "e27ce416eb9758a5e9395213b2c6d698df2a17bc19a04a55654d60b8d62e0502"
+    },
+    {
+      "file": "audio/sfx/meta_fanfare_chapter.mp3",
+      "bytes": 22883,
+      "sha256": "ce444b9a4f639a607e81e158fe952f8e2f45b7e142c0cb38b161e4595b992455"
+    },
+    {
+      "file": "audio/sfx/meta_fanfare_cup.mp3",
+      "bytes": 14582,
+      "sha256": "9005e35101f6d38ab34b2cafb68350befac07b00b91981a607ec69583afc35e5"
+    },
+    {
+      "file": "audio/sfx/meta_fanfare_mega.mp3",
+      "bytes": 33347,
+      "sha256": "fb86a14021239ad6a4b0e07448414d976373411cc1674f012119c2daa40f053b"
+    },
+    {
+      "file": "audio/sfx/meta_grinder_crunch.mp3",
+      "bytes": 7721,
+      "sha256": "61f192c359346b663efe74e14be1eab5810d9d0c5da070d3bb4a46a299fdd957"
+    },
+    {
+      "file": "audio/sfx/meta_grinder_start.mp3",
+      "bytes": 15432,
+      "sha256": "911a5ce57d37df77e362e121f7525c8417245896619737918b70eac1a2ae3cd4"
+    },
+    {
+      "file": "audio/sfx/meta_intro_whoosh.mp3",
+      "bytes": 6761,
+      "sha256": "bca557b7151fdc62b551ad3a094eb5e6084d564d998e4726a0d0b2f90f7eb1b3"
+    },
+    {
+      "file": "audio/sfx/meta_locked.mp3",
+      "bytes": 7202,
+      "sha256": "f746398b68d491f57acdcc6523b71d5c3ec9e890f7fc1038c30fb9f6037ee15c"
+    },
+    {
+      "file": "audio/sfx/meta_mode_swipe.mp3",
+      "bytes": 6631,
+      "sha256": "5dd223e760431ee7915ce8e55a047bc50056010938fae785e6952f58bf98316d"
+    },
+    {
+      "file": "audio/sfx/meta_purchase.mp3",
+      "bytes": 11788,
+      "sha256": "fcf66a6ee33d665df3c2648a45fee3b95dc67520627e45fe3c3781b3d9caed37"
+    },
+    {
+      "file": "audio/sfx/meta_result_row.mp3",
+      "bytes": 6350,
+      "sha256": "c53da0f97faaee4eeb9e50fe39c7711e2a90d7b2c4dcea3d0cf9fd8c444fad36"
+    },
+    {
+      "file": "audio/sfx/meta_reward_x2.mp3",
+      "bytes": 5199,
+      "sha256": "921331ec927610cf45a24295d5eb792f432b80c06500e5ad534657c1a3f2a0b3"
+    },
+    {
+      "file": "audio/sfx/meta_tally_done.mp3",
+      "bytes": 5954,
+      "sha256": "22ad18bdc03096e374450083d9dfcfbe6abc4463e7d231dbcc65a001a25cd543"
+    },
+    {
+      "file": "audio/sfx/meta_toast.mp3",
+      "bytes": 1945,
+      "sha256": "d2a6156b2d60781b4ff989c7ae8d67908d77c9e2bca29ca03d15d3d9772a7620"
+    },
+    {
+      "file": "audio/sfx/meta_toast_error.mp3",
+      "bytes": 11732,
+      "sha256": "64be07f2ba171ddab22aefdc980dcd032ff3b0b0f84b14596d9ba937df448e10"
+    },
+    {
+      "file": "audio/sfx/meta_unlock.mp3",
+      "bytes": 4363,
+      "sha256": "f3303a77469db86822d6dbdf263dfa5e95588f98d8e8c0ce4bd715586b2c15fd"
+    },
+    {
+      "file": "audio/sfx/meta_upgrade_armor.mp3",
+      "bytes": 6132,
+      "sha256": "49f9a863b1e8d0a68bfe9faf7ca3a8d3a638906ef0a94968dcc1859356b251ac"
+    },
+    {
+      "file": "audio/sfx/meta_upgrade_engine.mp3",
+      "bytes": 7834,
+      "sha256": "ffcb6e7b608e7a6e0324b055f07cde0a766fd4bb783b3441743afbdbf690a0c9"
+    },
+    {
+      "file": "audio/sfx/meta_upgrade_nitro.mp3",
+      "bytes": 8964,
+      "sha256": "4d567f8b837464cd9fc99b4a34697fc21ec7033227ed12e95c19ef08a76037e1"
+    },
+    {
+      "file": "audio/sfx/meta_upgrade_weapon.mp3",
+      "bytes": 7055,
+      "sha256": "26a75b402173a441fe15a359cfe471d0fd46555f036c8cf35bc236e9182ba060"
+    },
+    {
+      "file": "audio/sfx/mine_arm_1.mp3",
+      "bytes": 4498,
+      "sha256": "e0f888b056bbd37d104cb7528b5a82f605f8d53d5e9a95acbdcaf54a7a9a4b19"
+    },
+    {
+      "file": "audio/sfx/mine_arm_2.mp3",
+      "bytes": 4417,
+      "sha256": "428f0a4c2905be4e8e853a627a7042a35e4f4bc20b5ddf0afd72c2eb9e6c33dd"
+    },
+    {
+      "file": "audio/sfx/mine_beep_1.mp3",
+      "bytes": 3193,
+      "sha256": "f542302b6625f93e9ef4d3a6f10dd3c6e2fcc43e582b2035174c85ca411430b5"
+    },
+    {
+      "file": "audio/sfx/mine_beep_2.mp3",
+      "bytes": 4188,
+      "sha256": "90ff9e37f7afa75fb2b24f86098acae274a3a25907c012f25c531aca4b0d7db7"
+    },
+    {
+      "file": "audio/sfx/mine_drop.mp3",
+      "bytes": 10132,
+      "sha256": "12621c7fbc99fcf880c2e20db98d9c46e7c6e276b3c6b89a65663e17db007bc5"
+    },
+    {
+      "file": "audio/sfx/nitro_empty_1.mp3",
+      "bytes": 9604,
+      "sha256": "cd10ffe21a93d361908a4a2d24af6efa7e20e88a566049de8080524a9a6c7347"
+    },
+    {
+      "file": "audio/sfx/nitro_empty_2.mp3",
+      "bytes": 10622,
+      "sha256": "905f84fb4e6e5d1cc819079c62478ac820e16d24971881fda461d0d8173bf478"
+    },
+    {
+      "file": "audio/sfx/nitro_full_1.mp3",
+      "bytes": 3453,
+      "sha256": "a4ec365ad71f33990c3bc8f7da85cae14487d2da55e12205f9c1b77a5bf784a0"
+    },
+    {
+      "file": "audio/sfx/nitro_full_2.mp3",
+      "bytes": 3401,
+      "sha256": "ba775035e88af36c5150bf0e14e798a47a30aff10d9aaf1b7d2c912feb89f15c"
+    },
+    {
+      "file": "audio/sfx/nitro_ignite_1.mp3",
+      "bytes": 15192,
+      "sha256": "490f3f9c865dfaa281876c8528b26fd967d8d86b4daea0275ae728456d8ad1ca"
+    },
+    {
+      "file": "audio/sfx/nitro_ignite_2.mp3",
+      "bytes": 17379,
+      "sha256": "b550a5d9359e4dc894ae875bbc161d1b5c3c144eb1891ccad983cdc2ff1ab0a9"
+    },
+    {
+      "file": "audio/sfx/nitro_loop.mp3",
+      "bytes": 26387,
+      "sha256": "b4282d8b8d3ba6b9e52f48a4af2044f03edc8a9c4dbd113a89d7e8ce5c821ec2"
+    },
+    {
+      "file": "audio/sfx/offroad_loop.mp3",
+      "bytes": 27252,
+      "sha256": "954f376126baf8b77060b9baa2c6d62e11c546884ae9d37e90143c5e1597a963"
+    },
+    {
+      "file": "audio/sfx/out_of_ammo.mp3",
+      "bytes": 7840,
+      "sha256": "b6df87de9c997639ab46c09ecd3ea6e3bbc5851c20184a12591617805043ed7f"
+    },
+    {
+      "file": "audio/sfx/overtake_1.mp3",
+      "bytes": 4365,
+      "sha256": "7cc02223da6b0110ac8178e2c3bef062c12dfefbafc66a1377d19d388e2b1a07"
+    },
+    {
+      "file": "audio/sfx/overtake_2.mp3",
+      "bytes": 5410,
+      "sha256": "6ac2289f8ded13f0bea0b663a536702c986dc3350b647f8adf00b26c63ee6f42"
+    },
+    {
+      "file": "audio/sfx/pk_ammo.mp3",
+      "bytes": 7888,
+      "sha256": "30e2b3996b20f7ba0537d5b70dd0f389efa5e0a82a0cb5984fc7af74529e359c"
+    },
+    {
+      "file": "audio/sfx/pk_nitro.mp3",
+      "bytes": 11602,
+      "sha256": "928a2a3977c41878615609508f6dc305e6d184505512e864863ed9c89030063f"
+    },
+    {
+      "file": "audio/sfx/pk_power.mp3",
+      "bytes": 4917,
+      "sha256": "d84087b1fe9712be112bf206ece7ba8bca601a4d109b4da3195eb7a798a4195e"
+    },
+    {
+      "file": "audio/sfx/pk_repair.mp3",
+      "bytes": 7965,
+      "sha256": "f9ef14ae9c6a83bea1a7e87113fcdd16325e099a9a64115208c283f09283765c"
+    },
+    {
+      "file": "audio/sfx/pk_shield.mp3",
+      "bytes": 9697,
+      "sha256": "39d3d1c8f78b3fbee88573cc69b809f523b66f18c11edb5f8409c0a4c9d994aa"
+    },
+    {
+      "file": "audio/sfx/power_down.mp3",
+      "bytes": 6704,
+      "sha256": "2ae4452170e8f4c246b5c11bac66b86750789b709c020a4fc9359eea2af30ac3"
+    },
+    {
+      "file": "audio/sfx/power_loop.mp3",
+      "bytes": 15206,
+      "sha256": "10f9c8faa5c4a42cd9de128e0fa82e10cb336fe9adfc7910450bb95acb976e6e"
+    },
+    {
+      "file": "audio/sfx/prop_break_1.mp3",
+      "bytes": 10594,
+      "sha256": "0e7c7edfdebe88eea7863dda7da6d6f8a6fff46def45a9b203491f8b5cd5593f"
+    },
+    {
+      "file": "audio/sfx/prop_break_2.mp3",
+      "bytes": 11588,
+      "sha256": "87cd22d4d9c9cb0b4e47aa9d22340e4f4638c1a73af8aec0f69dbced524a0926"
+    },
+    {
+      "file": "audio/sfx/rail_scrape_1.mp3",
+      "bytes": 16192,
+      "sha256": "c125f7e5358dc4cf8525ded4fd3c5248324b7457b6787f91183385c16712e0ef"
+    },
+    {
+      "file": "audio/sfx/rail_scrape_2.mp3",
+      "bytes": 15583,
+      "sha256": "90bc6942714f15702b41dd938638c8b4b251964e6fe62e8faedf80f11cf15dcf"
+    },
+    {
+      "file": "audio/sfx/rail_scrape_3.mp3",
+      "bytes": 13869,
+      "sha256": "54ee371376ac81cf52f9126cdb54e89823bbf30a789f3cbd9fb293925579cc14"
+    },
+    {
+      "file": "audio/sfx/ram_heavy_1.mp3",
+      "bytes": 17575,
+      "sha256": "afac0a8750225f308fd5dee42daf9262bc566c9ec56e6108fd15cc562c54e1aa"
+    },
+    {
+      "file": "audio/sfx/ram_heavy_2.mp3",
+      "bytes": 6637,
+      "sha256": "b86fa332e24511f92ce4030ced7ba9112979e09da1e86bbc70d2ee8ef206a124"
+    },
+    {
+      "file": "audio/sfx/ram_heavy_3.mp3",
+      "bytes": 16290,
+      "sha256": "f2cb8312b0d4e7f513edff6390e2e56fe05b714ec8a7dedb0013b48c5cab2b8e"
+    },
+    {
+      "file": "audio/sfx/ram_light_1.mp3",
+      "bytes": 7958,
+      "sha256": "9e1dc3d64f8d0f811e187eacdbe9ad98d527084ba68b12c095862d1b6962eec4"
+    },
+    {
+      "file": "audio/sfx/ram_light_2.mp3",
+      "bytes": 11042,
+      "sha256": "5779ffbf34abdf3562ac71d3bffe69f7ab23512fff1e056bff765d7040bdfdbe"
+    },
+    {
+      "file": "audio/sfx/ram_light_3.mp3",
+      "bytes": 5976,
+      "sha256": "2b4c7cb781aa393d26da5450e1c2c237584d498fcd231d6aca244ff0c2b3f510"
+    },
+    {
+      "file": "audio/sfx/ratbite_1.mp3",
+      "bytes": 10186,
+      "sha256": "1a2c7c52019eb37ede388294edfc17a1df23d453927f9a44f4f83bd392512461"
+    },
+    {
+      "file": "audio/sfx/ratbite_2.mp3",
+      "bytes": 9533,
+      "sha256": "9ad0665930f5dc7e04f355af2042291a80649a04f09f58188b818b52e1bddafd"
+    },
+    {
+      "file": "audio/sfx/ratbite_3.mp3",
+      "bytes": 9792,
+      "sha256": "f3d47d80ffb4952aca1798649554a60efbc496c421e024c76855f2567b5e0f54"
+    },
+    {
+      "file": "audio/sfx/respawn.mp3",
+      "bytes": 6870,
+      "sha256": "d3c1f9456881da3cc79e1644121f66dd89acc05888f62f01f5789266f78ea762"
+    },
+    {
+      "file": "audio/sfx/rev_bike.mp3",
+      "bytes": 29022,
+      "sha256": "d4ed95aba98cb5913f42be1a5b8397e17fb89829e1dcdbbca433b437ca48da46"
+    },
+    {
+      "file": "audio/sfx/rev_buggy.mp3",
+      "bytes": 13131,
+      "sha256": "9357593731ded3c02942649379ea2a82dfd2b245624b8e41e43bdfe81b4f855e"
+    },
+    {
+      "file": "audio/sfx/rev_hotrod.mp3",
+      "bytes": 17874,
+      "sha256": "ceb7ba27f1ece8be75335fef4a8ea73cf8d65721c81d803bfa3a575d22800e8e"
+    },
+    {
+      "file": "audio/sfx/rev_tank.mp3",
+      "bytes": 24696,
+      "sha256": "466b4c04f3974e80e940a772d1ba2a030cf93b3bf38e5e1c42075b2729865b67"
+    },
+    {
+      "file": "audio/sfx/rev_truck.mp3",
+      "bytes": 17874,
+      "sha256": "ceb7ba27f1ece8be75335fef4a8ea73cf8d65721c81d803bfa3a575d22800e8e"
+    },
+    {
+      "file": "audio/sfx/rev_van.mp3",
+      "bytes": 20546,
+      "sha256": "5819386af61c48b995a064d4b94499c61a9b5b01dc2bdeea08bf52178295ac5c"
+    },
+    {
+      "file": "audio/sfx/rocket_loop.mp3",
+      "bytes": 26624,
+      "sha256": "36b9a26f43ba0c46c1dd7a71f0f99aae014952d1bff2077fd61b60839a245a50"
+    },
+    {
+      "file": "audio/sfx/shell_whistle.mp3",
+      "bytes": 9617,
+      "sha256": "39dd20ce407190bca17d1441b53763be7d3123716d9ecf6bc7afd1ecd34e2dbf"
+    },
+    {
+      "file": "audio/sfx/shield_down_1.mp3",
+      "bytes": 9911,
+      "sha256": "34f60e5eea051de1768205304fb2ee18153b21f6631a1562f28f4475ee985be8"
+    },
+    {
+      "file": "audio/sfx/shield_down_2.mp3",
+      "bytes": 9833,
+      "sha256": "73efb140b40235b43dd4b59d6e645e60ad12c14dfe57495c0c11bed2ec00edab"
+    },
+    {
+      "file": "audio/sfx/shield_hit_1.mp3",
+      "bytes": 4053,
+      "sha256": "45b05c77ce777b33ef8b00cd9499d13a87bf8469a9198e98dd1724b780dddefe"
+    },
+    {
+      "file": "audio/sfx/shield_hit_2.mp3",
+      "bytes": 4161,
+      "sha256": "d224de61efa13131835ddf8f8aa438e6abc3c50bd5653647f913dbb837e537aa"
+    },
+    {
+      "file": "audio/sfx/shield_up.mp3",
+      "bytes": 15982,
+      "sha256": "323ecb739681abc42188866c0c43423abd3bac144863c55e3565baf418f81fbd"
+    },
+    {
+      "file": "audio/sfx/shot_cannon_1.mp3",
+      "bytes": 12462,
+      "sha256": "364cb6448c0f9de99aaa8e76da014ff6e47d5afdfe45003536b6d0c0edb81114"
+    },
+    {
+      "file": "audio/sfx/shot_cannon_2.mp3",
+      "bytes": 20597,
+      "sha256": "4f0176ddc12aa7fa646ae86b6c136805e9758b8ff78a5f2ac6e8827e473bd39e"
+    },
+    {
+      "file": "audio/sfx/shot_lancer_1.mp3",
+      "bytes": 8374,
+      "sha256": "1709f96833ab850b64c1fd885acd967037c81d2010aef6397aa444d1c60262ab"
+    },
+    {
+      "file": "audio/sfx/shot_lancer_2.mp3",
+      "bytes": 7499,
+      "sha256": "a9ad034f506a36ff1250d94969eec5df858e04ef2588309b160ffe90f5f0a956"
+    },
+    {
+      "file": "audio/sfx/shot_lancer_3.mp3",
+      "bytes": 8976,
+      "sha256": "23e3480ac4f6df9c46d282f4334750531088a8009f1012830f6cae6f9d15926d"
+    },
+    {
+      "file": "audio/sfx/shot_mortar_1.mp3",
+      "bytes": 10561,
+      "sha256": "4bd13ee06bf4babd3e678da98cc30c84c5c4fe806d482777417cd3d8c30f6090"
+    },
+    {
+      "file": "audio/sfx/shot_mortar_2.mp3",
+      "bytes": 10511,
+      "sha256": "9e36145585c7670e232cf048c24bdd4b4b1e857abdd1cc1e2c16a585ab065245"
+    },
+    {
+      "file": "audio/sfx/shot_swarm_1.mp3",
+      "bytes": 10403,
+      "sha256": "eae572e32ed1cc2c9c4bd4271d6102a788fca12e366071cd14311575359e56d9"
+    },
+    {
+      "file": "audio/sfx/shot_swarm_2.mp3",
+      "bytes": 8653,
+      "sha256": "d4e0aa22550c6a8c8159835ab0681618bbe08dfaa1fedb1c8e86621fb3366672"
+    },
+    {
+      "file": "audio/sfx/shot_swarm_3.mp3",
+      "bytes": 11164,
+      "sha256": "f44cc2b4efe6672947820d0e0f17a15b82749f2620b4444fecc601e49c3d6373"
+    },
+    {
+      "file": "audio/sfx/shot_vulcan_1.mp3",
+      "bytes": 6601,
+      "sha256": "8934a7a7984c0e3627d6a5339dddbf83202d19ce0b908d0f56fdee8884cc9654"
+    },
+    {
+      "file": "audio/sfx/shot_vulcan_2.mp3",
+      "bytes": 6811,
+      "sha256": "57c783f81f48b642229200c9cfa210f37594d7f9296e9ad50019e81a4e1db27a"
+    },
+    {
+      "file": "audio/sfx/shot_vulcan_3.mp3",
+      "bytes": 7073,
+      "sha256": "7d4884328cf0c79df03be9c74cba9f2988cf421e6fe3fbc31476d20567565953"
+    },
+    {
+      "file": "audio/sfx/shot_vulcan_4.mp3",
+      "bytes": 7077,
+      "sha256": "6a6cd9b27fc84928df57b304ea93e3fbd3164812164d625815b5043e6ff2ef0c"
+    },
+    {
+      "file": "audio/sfx/skid_chirp_1.mp3",
+      "bytes": 6374,
+      "sha256": "968020f502f702f63c028028680d2c2042f470e68f1ff5c43c95c9867fc326b7"
+    },
+    {
+      "file": "audio/sfx/skid_chirp_2.mp3",
+      "bytes": 4839,
+      "sha256": "ddfb72bbd9b2f203594ff42f017b1432a6ac7817ae8e62a3b2fba85c4ad8cdcc"
+    },
+    {
+      "file": "audio/sfx/skid_loop.mp3",
+      "bytes": 26098,
+      "sha256": "cfc0a0973f1de111c78f2b975fb03350c3274e897950eae02095afa00ec648dc"
+    },
+    {
+      "file": "audio/sfx/slick_drop.mp3",
+      "bytes": 4993,
+      "sha256": "c40834a6d6c793dbb4b5d63e2996d27d9d0785d9e3bed282a8235cb8d50e36a3"
+    },
+    {
+      "file": "audio/sfx/sp_blink.mp3",
+      "bytes": 5958,
+      "sha256": "43174a47037d00b0b3d9e3f0b0b26f6003fa04a5c4559e0bc8c963b1c5855a27"
+    },
+    {
+      "file": "audio/sfx/sp_comet.mp3",
+      "bytes": 8890,
+      "sha256": "bba575848bcc08df9e15b9fbe16bb5188286ed6e1836cea714740bd7c43523ac"
+    },
+    {
+      "file": "audio/sfx/sp_cookies.mp3",
+      "bytes": 5805,
+      "sha256": "3579e6d52ce9806c04942636ad6ba8ec9cec676818a67bb39844d35027a7a7d7"
+    },
+    {
+      "file": "audio/sfx/sp_emp.mp3",
+      "bytes": 14218,
+      "sha256": "38b65e710fb0cae517a96a06be5f7b2496f090d0ea7d14da7540d9f4c49207c4"
+    },
+    {
+      "file": "audio/sfx/sp_end.mp3",
+      "bytes": 10493,
+      "sha256": "bec733dada6a59fbd78cd0707b8cdd37bccc7816f08eacbc26af77449eabb744"
+    },
+    {
+      "file": "audio/sfx/sp_overdrive.mp3",
+      "bytes": 17311,
+      "sha256": "22a450039bb9e1ccb7de8d9ca3bbaf5fa3375b9fd6635bdb47198dc609d8d203"
+    },
+    {
+      "file": "audio/sfx/sp_rats.mp3",
+      "bytes": 9713,
+      "sha256": "e0c5970c18f0913c8f3035ff8321cfc827672c745b0619329db74e76392dc02b"
+    },
+    {
+      "file": "audio/sfx/sp_ready.mp3",
+      "bytes": 3302,
+      "sha256": "c31630f3ac18887ffee2d8561981b2090e79f07682744001d295b9cef92b84cf"
+    },
+    {
+      "file": "audio/sfx/sp_shockwave.mp3",
+      "bytes": 12296,
+      "sha256": "159289c655a20c4d747e366d6a9dbe206f649297b176c19f4a4aed8ad5ff3880"
+    },
+    {
+      "file": "audio/sfx/spinout_1.mp3",
+      "bytes": 13073,
+      "sha256": "40a55cd8981303413a53c3c4f7896230a3d11c0edd75b1067fdf8aac309e5fb4"
+    },
+    {
+      "file": "audio/sfx/spinout_2.mp3",
+      "bytes": 10095,
+      "sha256": "1ffd136123bf7b87b7f0f5933bb61a0e46f7c55afba5be9ca86db96c70323257"
+    },
+    {
+      "file": "audio/sfx/ui_back.mp3",
+      "bytes": 5544,
+      "sha256": "f3cd7edd12dfdb9e2bb0e539f07c0f34382e6ad2a4a40c9deddf03c1eebcd0b4"
+    },
+    {
+      "file": "audio/sfx/ui_confirm_1.mp3",
+      "bytes": 2024,
+      "sha256": "3989c74e8573b3f8b0ee5d1332f605fd54b32c57d82d5f2e1ec4f7ab4dd34ea3"
+    },
+    {
+      "file": "audio/sfx/ui_confirm_2.mp3",
+      "bytes": 1790,
+      "sha256": "e521a20f22218f6af1e0478c555cbf0063b414cd382eba3db80c04e1e387eaf1"
+    },
+    {
+      "file": "audio/sfx/ui_nav.mp3",
+      "bytes": 1424,
+      "sha256": "8962796656d7be398092818e2879bd2ff3bde280784121305de07937e28b4859"
+    },
+    {
+      "file": "audio/sfx/ui_panel_close.mp3",
+      "bytes": 7642,
+      "sha256": "58f47097c64acb809c45fcde41b1b4e6769a06d7c518c6f5fe6965f6dc6feade"
+    },
+    {
+      "file": "audio/sfx/ui_panel_open.mp3",
+      "bytes": 8272,
+      "sha256": "d9cdb121e782b68017eca857e9b9dd46429e49c93f02cf06bd38ac10255d5ad9"
+    },
+    {
+      "file": "audio/sfx/ui_play.mp3",
+      "bytes": 24204,
+      "sha256": "8fef0efa5b1be73425f4b8bc9450569e0cf9a0a59827c83d1d8afd1d81f91563"
+    },
+    {
+      "file": "audio/sfx/ui_tally.mp3",
+      "bytes": 3484,
+      "sha256": "9cef5dcc75893e10be7abb559e75e0f81ba4bd7762931b633fe7e4d82a8f4283"
+    },
+    {
+      "file": "audio/sfx/ui_toggle.mp3",
+      "bytes": 1504,
+      "sha256": "5d063d7a7bc17004ea1823395421a2291ae274f04f96e630cd88e8afe468a030"
+    },
+    {
+      "file": "audio/sfx/wall_hit_1.mp3",
+      "bytes": 6814,
+      "sha256": "e950223d6737edf20b6659384619fb6d96c0fecf3d4db9cda579f8fd1c066499"
+    },
+    {
+      "file": "audio/sfx/wall_hit_2.mp3",
+      "bytes": 5746,
+      "sha256": "5b56d771e29c9643e043b0d423590d38f5bba805dcf2841de22f22264c1ac9be"
+    },
+    {
+      "file": "audio/sfx/warn_beep_1.mp3",
+      "bytes": 10229,
+      "sha256": "8a53be6343f5c461e46e5976b711794c588314445593b7e76f43f766530d9818"
+    },
+    {
+      "file": "audio/sfx/warn_beep_2.mp3",
+      "bytes": 3922,
+      "sha256": "38b46ae94f373912bc8c55983646062228a6fbb0c8e925fadd0972312793d0c0"
+    },
+    {
+      "file": "audio/sfx/wrongway.mp3",
+      "bytes": 12384,
+      "sha256": "490390d8a967d693d718bd9f831e59496b4a7c31ae80054a04498eacc9932dd7"
+    },
+    {
+      "file": "audio/vo/an_1.mp3",
+      "bytes": 4622,
+      "sha256": "ca39915e28f8e9aaa654393d8c514790c6e0f0cacb18b1992ea444425c276d6e"
+    },
+    {
+      "file": "audio/vo/an_2.mp3",
+      "bytes": 4416,
+      "sha256": "17b3c5a02df4e40b0730c9a875bf0b01373ac9a8a27f177473a51b2d2c8dd402"
+    },
+    {
+      "file": "audio/vo/an_3.mp3",
+      "bytes": 5143,
+      "sha256": "9547ce510a28fc347e24667d9b4041aae93bdc715a7a91aa0376ce8191f0f7dd"
+    },
+    {
+      "file": "audio/vo/an_auntie.mp3",
+      "bytes": 7249,
+      "sha256": "09869be98281ab8803e661ff1ad8f3841bca6f89c8fc98288aafe9daadf44549"
+    },
+    {
+      "file": "audio/vo/an_champ_down_1.mp3",
+      "bytes": 13753,
+      "sha256": "65ca56a19d6d523bcb64f193bc38a47d268c3da6fcd7578841aadd8f30bef8f2"
+    },
+    {
+      "file": "audio/vo/an_champ_down_2.mp3",
+      "bytes": 11831,
+      "sha256": "a60813ebab31dd1b5b49d5d7ac5868ced9cf25afc96e732116c42c8599f697cf"
+    },
+    {
+      "file": "audio/vo/an_champ_wins.mp3",
+      "bytes": 11468,
+      "sha256": "a00578d7b230b8ec9051e708ac00d669a9654542b4794085c078a03ace08225c"
+    },
+    {
+      "file": "audio/vo/an_chapter_done.mp3",
+      "bytes": 9541,
+      "sha256": "0f1ae4e9282df638fa2154dafdda9bf2a2c52e110a047664bf5d9a3998db89b9"
+    },
+    {
+      "file": "audio/vo/an_cup_champion.mp3",
+      "bytes": 12658,
+      "sha256": "60a6aaae11172e21170f7e3d1d9cfee19f0ad272e426865d327a18ffe9d99290"
+    },
+    {
+      "file": "audio/vo/an_defeat.mp3",
+      "bytes": 6814,
+      "sha256": "5ed19a2dac83de494660b3d7b4542c14ad53a89f6a35ff6b8dd972e19f8e326c"
+    },
+    {
+      "file": "audio/vo/an_double.mp3",
+      "bytes": 9642,
+      "sha256": "84962f9289ae96760be129a224029d6c756b13b06a69f988d3f4fa7f85178a8f"
+    },
+    {
+      "file": "audio/vo/an_final_lap.mp3",
+      "bytes": 7847,
+      "sha256": "db2235a74b1621e218f1a2a09d73af4107ec054695b9f289bfc3e678f0f6b368"
+    },
+    {
+      "file": "audio/vo/an_finish_1.mp3",
+      "bytes": 14195,
+      "sha256": "728c69930bba984bcc1fa8e813c42bc0612aa439ee44a5faf5e5f0a06ddd5be4"
+    },
+    {
+      "file": "audio/vo/an_finish_2.mp3",
+      "bytes": 8785,
+      "sha256": "1349aff6fe1abfe8c17be7fd13a8c3f7712c269ce25bf13b70626760d47f8b07"
+    },
+    {
+      "file": "audio/vo/an_finish_3.mp3",
+      "bytes": 10499,
+      "sha256": "094e73992faf1c97b41316da9c79eb99066020e7ee092061177a55152fb2f33f"
+    },
+    {
+      "file": "audio/vo/an_finish_4.mp3",
+      "bytes": 14402,
+      "sha256": "478b3b0e3f9d341ac4251dde98a02f0c5c56081d5cf25c75e2311d99362d7c0f"
+    },
+    {
+      "file": "audio/vo/an_first_blood.mp3",
+      "bytes": 7746,
+      "sha256": "eeb5339c6e9e22214300f3016e1382c7c30533dfb9211e18832e89fb6baea2fd"
+    },
+    {
+      "file": "audio/vo/an_go.mp3",
+      "bytes": 11099,
+      "sha256": "c7d90a54986acda0d72b8317b1f1262f1e3d8c380e439250b5439c86cfcf2da6"
+    },
+    {
+      "file": "audio/vo/an_grinder.mp3",
+      "bytes": 10242,
+      "sha256": "b3a31112e7c3878507ccb7759c8ad14080d1dec1ed7c433ba0882700195322b9"
+    },
+    {
+      "file": "audio/vo/an_johnny.mp3",
+      "bytes": 8811,
+      "sha256": "50492fc94e6de31b812ff3d8ec7a78f094d41356d6827aa222d24b8acb48baa3"
+    },
+    {
+      "file": "audio/vo/an_lap2.mp3",
+      "bytes": 7015,
+      "sha256": "080286db850d01299257d4381cda06a29411a924b68469056d23657ad0d8fe8b"
+    },
+    {
+      "file": "audio/vo/an_last_place.mp3",
+      "bytes": 12868,
+      "sha256": "edb0c65f45b9b28b8f7b5c802fa1df505f4d1231d275c3d4a435a19f707b93c0"
+    },
+    {
+      "file": "audio/vo/an_lead_1.mp3",
+      "bytes": 10266,
+      "sha256": "9a30efe615ac2cb9ad3700b27d9e044d72711ca7475adeb6307e3abb06fbdbe2"
+    },
+    {
+      "file": "audio/vo/an_lead_2.mp3",
+      "bytes": 7927,
+      "sha256": "8381f061a26cb5ffba9483b82039d8b284121a4e394fe5a5b74ca4d08f317152"
+    },
+    {
+      "file": "audio/vo/an_lost_lead.mp3",
+      "bytes": 12141,
+      "sha256": "1efc41448227764b8aada05f3c81b202062e5dd48f4e0335397fab98954812fc"
+    },
+    {
+      "file": "audio/vo/an_mega.mp3",
+      "bytes": 22103,
+      "sha256": "d9c802517b754f043bc4faa1325d93b7b2a57191c12b67adddda0d059d5c35ad"
+    },
+    {
+      "file": "audio/vo/an_mojo.mp3",
+      "bytes": 8782,
+      "sha256": "fa10347b2f6a4030de47ee415a23f40225c399fccafca7e547ebdfae89703813"
+    },
+    {
+      "file": "audio/vo/an_new_hero.mp3",
+      "bytes": 17449,
+      "sha256": "c6c26b623c4dae4323ff5f89f922dea210da43caa1dff884b1c6d05a2419cac7"
+    },
+    {
+      "file": "audio/vo/an_overtake.mp3",
+      "bytes": 7952,
+      "sha256": "52f527599699ce4339d000a1dc9ee9374c4a6e34da4554467bc6d8a72acd0e0c"
+    },
+    {
+      "file": "audio/vo/an_photo_finish.mp3",
+      "bytes": 12945,
+      "sha256": "605c01d7f555e7969054aadcf864de43712c1221d11e6560b8f3fcdc6025555b"
+    },
+    {
+      "file": "audio/vo/an_podium.mp3",
+      "bytes": 11827,
+      "sha256": "63abb8ff78ab146dcb99d8379096b1700136a0be145eef97116eafb17a8e2168"
+    },
+    {
+      "file": "audio/vo/an_race.mp3",
+      "bytes": 5741,
+      "sha256": "808be389047f1664d7aa79c87ffb74228b7f8ed7b74c71f4df54fb43415ac600"
+    },
+    {
+      "file": "audio/vo/an_rampage.mp3",
+      "bytes": 9357,
+      "sha256": "b505d35585b531cca46cac8aa855f335242dceb6c6195d90cb355edcd71e0ef5"
+    },
+    {
+      "file": "audio/vo/an_scrape_1.mp3",
+      "bytes": 7745,
+      "sha256": "c9de77a4b984fe30a6377ad98695dbd6153d965a42b60450c5df3e1ff288152e"
+    },
+    {
+      "file": "audio/vo/an_scrape_2.mp3",
+      "bytes": 7849,
+      "sha256": "b032a6d0b8cf087f7e4b98e7ccb35f98914265c1b745916797ab9c1d8471105f"
+    },
+    {
+      "file": "audio/vo/an_set_cheddar.mp3",
+      "bytes": 8341,
+      "sha256": "33ad44f3a338093f344f812db6c0cd9c3bcb60fc37c68dc9bba9bca6b3c460b8"
+    },
+    {
+      "file": "audio/vo/an_set_frost.mp3",
+      "bytes": 10475,
+      "sha256": "9f20fed1c1e19b1ad528e73f1631305e50179163281819fa3653547c2549e839"
+    },
+    {
+      "file": "audio/vo/an_set_mars.mp3",
+      "bytes": 8367,
+      "sha256": "094f5080fb331b6ab74aa3405b580425db7ce4ba2be4f6f67fc862a4052aa5d3"
+    },
+    {
+      "file": "audio/vo/an_set_neon.mp3",
+      "bytes": 12426,
+      "sha256": "e498c7940736642d6ba44a0463ea767e51ba1dfbed9a50ebc4d18b814215d2fa"
+    },
+    {
+      "file": "audio/vo/an_set_orbit.mp3",
+      "bytes": 8498,
+      "sha256": "31acf4f29378b908bf28944f1e0b691b47cc429636b41e363570f3d35f9befed"
+    },
+    {
+      "file": "audio/vo/an_set_scrap.mp3",
+      "bytes": 8810,
+      "sha256": "01a383498b8e75b6da0bfbe692568448a9a558ad6dec166a1c7f375daa1f60b8"
+    },
+    {
+      "file": "audio/vo/an_special_ready.mp3",
+      "bytes": 8659,
+      "sha256": "2109736b4e4273432de8a9f3599e26fa5b21c5d6a58ad80f6abf590219e5f70f"
+    },
+    {
+      "file": "audio/vo/an_stella.mp3",
+      "bytes": 5587,
+      "sha256": "ba0a2155a3c06b946ab5b7170fb1da435fea697e31ca9a724a06018753f94d3d"
+    },
+    {
+      "file": "audio/vo/an_title.mp3",
+      "bytes": 11253,
+      "sha256": "48ebf12a66cac69067b82cdf33ca688b88a9b82ecff9c60ac2799adeca1065e1"
+    },
+    {
+      "file": "audio/vo/an_triple.mp3",
+      "bytes": 7381,
+      "sha256": "4d4251db9d20de406cdc9fa828c31faa4080b13eaafa4790de8d8acc6a90c09d"
+    },
+    {
+      "file": "audio/vo/an_unstoppable.mp3",
+      "bytes": 14741,
+      "sha256": "bb0fa1b60386d3a73e9444a2261ac2355f2344b57d880d788abf284ebbe106de"
+    },
+    {
+      "file": "audio/vo/an_vermin.mp3",
+      "bytes": 8392,
+      "sha256": "157e45e6fc29ae3a67c2c695381d4e51d3d745457c077d684fb6db9cc7b0e878"
+    },
+    {
+      "file": "audio/vo/an_vexx.mp3",
+      "bytes": 7485,
+      "sha256": "40428b3490675b840e05057ac217fe36b0a391af9cf6d9e2fed2d028053411bb"
+    },
+    {
+      "file": "audio/vo/an_victory.mp3",
+      "bytes": 9982,
+      "sha256": "58b83d3ceb6770817cb024e9557fb40241e0fe1c5490ce04d7f21780ca2c6a09"
+    },
+    {
+      "file": "audio/vo/an_weapons_hot.mp3",
+      "bytes": 10944,
+      "sha256": "3160999458132921c2e44987f98f70eb9b6a99d8eff485d2f3e2ec9dc57bbd1a"
+    },
+    {
+      "file": "audio/vo/an_wrecked.mp3",
+      "bytes": 12327,
+      "sha256": "bae739ae13e72acaaa6e73e2644b0fc812c396466132ffea42e1649a4828b8c5"
+    },
+    {
+      "file": "audio/vo/an_wrong_way.mp3",
+      "bytes": 9380,
+      "sha256": "faa0ff897303ae11299a769c34e1c9444e71c756c39a10466f6436d076770add"
+    },
+    {
+      "file": "audio/vo/auntie_hit_1.mp3",
+      "bytes": 9385,
+      "sha256": "868d1d5d6d8fa373366611bd52a4f8b085b78402959a8a30e14f6dacbf16b720"
+    },
+    {
+      "file": "audio/vo/auntie_hit_2.mp3",
+      "bytes": 10271,
+      "sha256": "07c46d08ac512f58e3eaab0fb66b2bb257cb18817b8db7548b29032816ddad3e"
+    },
+    {
+      "file": "audio/vo/auntie_hurt.mp3",
+      "bytes": 9382,
+      "sha256": "9edd914b0489fc69cf097e21e82feb9a2b33b277c07d74e0023b38ac7015531e"
+    },
+    {
+      "file": "audio/vo/auntie_kill.mp3",
+      "bytes": 10920,
+      "sha256": "4158f40ee33332619708eaa82d18102c2c6bcd80b680d36edfc9d41ef9d36072"
+    },
+    {
+      "file": "audio/vo/auntie_lose.mp3",
+      "bytes": 10197,
+      "sha256": "3850fafc5a58a032fa022b826d9de132923424d81e6406dbedf94c4b6abe8e32"
+    },
+    {
+      "file": "audio/vo/auntie_lowhp.mp3",
+      "bytes": 13939,
+      "sha256": "b133a5f59720f7e27938c910e670628293afdcbab6d01df73c0b6aa5cb2b662e"
+    },
+    {
+      "file": "audio/vo/auntie_overtake_1.mp3",
+      "bytes": 10719,
+      "sha256": "1f5e161b2a2ee12847206c67df97929a42f1814d7582d312fe4a1a86e7b08983"
+    },
+    {
+      "file": "audio/vo/auntie_overtake_2.mp3",
+      "bytes": 11621,
+      "sha256": "9045791dc50f182ece5a4e27a6bd43fde3c02decc81315e8cfdd3f053a91add5"
+    },
+    {
+      "file": "audio/vo/auntie_pick.mp3",
+      "bytes": 11521,
+      "sha256": "e9468c04c6b57f265d68c11066f5e0015b47e13d9eb8d3e8fefb5354231975d1"
+    },
+    {
+      "file": "audio/vo/auntie_pickup.mp3",
+      "bytes": 10371,
+      "sha256": "d756d78c964252cda0a90052c91664a854048df85571c42ea62e5d3660e44f1b"
+    },
+    {
+      "file": "audio/vo/auntie_podium.mp3",
+      "bytes": 12773,
+      "sha256": "5f372e9a5204e209af8196fc6da16f0368ae331250ab66036bb3f68af210c2f6"
+    },
+    {
+      "file": "audio/vo/auntie_special.mp3",
+      "bytes": 11386,
+      "sha256": "20f01e1f1404ccabf26e33a6747047cb13c6d28fac5ae5b6b2ae8220a281ac71"
+    },
+    {
+      "file": "audio/vo/auntie_taunt_1.mp3",
+      "bytes": 10787,
+      "sha256": "227d7766564919883d2bcfac952a64ebace890ed653ae94f6f8b575325a44c38"
+    },
+    {
+      "file": "audio/vo/auntie_taunt_2.mp3",
+      "bytes": 11412,
+      "sha256": "19cea890ace047102400277693b56bff6d1aaac51a736bebc33bdff3ed9dd810"
+    },
+    {
+      "file": "audio/vo/auntie_upgrade.mp3",
+      "bytes": 10189,
+      "sha256": "9c0933a7edf1e5d3af70ef734af4ea1802a72a04b6d0c18d698ee43cd60da18f"
+    },
+    {
+      "file": "audio/vo/auntie_win.mp3",
+      "bytes": 11083,
+      "sha256": "b2ee5df71174f917d1b8edc3bc994e3851d97d7ff27c82e831d96b427cd309c8"
+    },
+    {
+      "file": "audio/vo/johnny_hit_1.mp3",
+      "bytes": 13259,
+      "sha256": "c2d6d90e3fd9fa41b19f50afb29d372e274bbcaee81d59ff13afe8b12be18301"
+    },
+    {
+      "file": "audio/vo/johnny_hit_2.mp3",
+      "bytes": 10084,
+      "sha256": "705691749f27a2c45ad77029e73dee25cb10375e51a13d70719b27e71e00ded3"
+    },
+    {
+      "file": "audio/vo/johnny_hurt.mp3",
+      "bytes": 12298,
+      "sha256": "5c0667e931034669e26fcb9223c407dbd1abd6b8a603f36f185f35f9ee865692"
+    },
+    {
+      "file": "audio/vo/johnny_kill.mp3",
+      "bytes": 13541,
+      "sha256": "2ea2b2e59547fd4fbf5afd97bd598f51b2923428fc994a8b71e99ff9147a8155"
+    },
+    {
+      "file": "audio/vo/johnny_lose.mp3",
+      "bytes": 13650,
+      "sha256": "78898cafcaa41bf93afda78f628450b27719b72eb8d71d0c30f5818d843eb52a"
+    },
+    {
+      "file": "audio/vo/johnny_lowhp.mp3",
+      "bytes": 9850,
+      "sha256": "2505b41475c3c76cc81efaeb9ad3cf521e5acca6843b844151dd3ab4f5a0e3dc"
+    },
+    {
+      "file": "audio/vo/johnny_overtake_1.mp3",
+      "bytes": 12555,
+      "sha256": "93e8064281be1a6efb0df99d2abcc36e2776df140de945d93cc3c34cfa776e8d"
+    },
+    {
+      "file": "audio/vo/johnny_overtake_2.mp3",
+      "bytes": 11330,
+      "sha256": "a430ec40a8fd69068c6d1859756d9299e7b924e0031ce965e76ae1eec629aaf6"
+    },
+    {
+      "file": "audio/vo/johnny_pick.mp3",
+      "bytes": 10345,
+      "sha256": "d1c354fcf12ec1cdb238e1ab5670c30c3ad82604a20df14adbf4e9e06501f3b5"
+    },
+    {
+      "file": "audio/vo/johnny_pickup.mp3",
+      "bytes": 7042,
+      "sha256": "12d9c6ad0da2c3cae75beaaee871a5ac55aa3f8a2910a5fa006f94598493f8ba"
+    },
+    {
+      "file": "audio/vo/johnny_podium.mp3",
+      "bytes": 10213,
+      "sha256": "dfc8964b98343c9275e689b44e0cc58b652a334b761b785cc6ce6cbda2960f47"
+    },
+    {
+      "file": "audio/vo/johnny_special.mp3",
+      "bytes": 15081,
+      "sha256": "864ca82587791afaece87bbb9fa46c9c853942ea4e91c40d927ee6872a7705b8"
+    },
+    {
+      "file": "audio/vo/johnny_taunt_1.mp3",
+      "bytes": 9542,
+      "sha256": "e14a26c4136838e4bb34488ebe31af0e03fecb90e0873de66e6bff0d1d22be39"
+    },
+    {
+      "file": "audio/vo/johnny_taunt_2.mp3",
+      "bytes": 14842,
+      "sha256": "6726fbe8b3eac7e2a3bec8f460a656c38ac08759b090c6cb958afec365cb82b2"
+    },
+    {
+      "file": "audio/vo/johnny_upgrade.mp3",
+      "bytes": 10789,
+      "sha256": "246b13aa77383699ebb8a30aa09c1faeba2c5ff40286a5bf01bade73dff6b128"
+    },
+    {
+      "file": "audio/vo/johnny_win.mp3",
+      "bytes": 18126,
+      "sha256": "960c42dbd375e2c482f35eb4683994d6ae4dc9020a5892b070efd70c4a6a1aa5"
+    },
+    {
+      "file": "audio/vo/mojo_hit_1.mp3",
+      "bytes": 11314,
+      "sha256": "c59440bb2e9ac4ceb0ed1c8d466ab2364b84cb614fd9211912aaeb1c929d1c0d"
+    },
+    {
+      "file": "audio/vo/mojo_hit_2.mp3",
+      "bytes": 7985,
+      "sha256": "4d3c819d3a18faf996613dfa45aa3c72da930edc5d687103565298736da604e5"
+    },
+    {
+      "file": "audio/vo/mojo_hurt.mp3",
+      "bytes": 6029,
+      "sha256": "89058d5f8ccdf69a6d5cd998fe4990999b9e7d04be238ba55fa959c02d2c3454"
+    },
+    {
+      "file": "audio/vo/mojo_kill.mp3",
+      "bytes": 4468,
+      "sha256": "1fc03c0a0281778b7e710f20a43bbdbf9fc810c6fa6ae38d2c5a25f617356b11"
+    },
+    {
+      "file": "audio/vo/mojo_lose.mp3",
+      "bytes": 4210,
+      "sha256": "ce55eb62a653ce348ac6730e4de3699c88f8375d07c09dc39d1fe3f6ef84399f"
+    },
+    {
+      "file": "audio/vo/mojo_lowhp.mp3",
+      "bytes": 9991,
+      "sha256": "ff7e6cd3d8840b0ee9f08290cff4939830b8f7e96ad98c72a98bfa316b4cbd6c"
+    },
+    {
+      "file": "audio/vo/mojo_overtake_1.mp3",
+      "bytes": 6210,
+      "sha256": "ad8d7536cd864bccb81c285cbece2dfc917a24c034aae9cb2ed5967d16f87189"
+    },
+    {
+      "file": "audio/vo/mojo_overtake_2.mp3",
+      "bytes": 6001,
+      "sha256": "0931887364af67907d494e45cc88a4e0021b52f69678e71cef1f4f3883ea2196"
+    },
+    {
+      "file": "audio/vo/mojo_pick.mp3",
+      "bytes": 3871,
+      "sha256": "a79239b3ce61aede30a0f504cb044a50d619a3febae8ee80cc6d5068af81f02b"
+    },
+    {
+      "file": "audio/vo/mojo_pickup.mp3",
+      "bytes": 7197,
+      "sha256": "00182d1887f5056be5383acf46b19fbf6420a9fbdfd2dd0f6b0b2bac436d8af5"
+    },
+    {
+      "file": "audio/vo/mojo_podium.mp3",
+      "bytes": 5717,
+      "sha256": "54d817f4686b4f00ba453cfc0b7608498da39e767e827b03c12d0b2462f43333"
+    },
+    {
+      "file": "audio/vo/mojo_special.mp3",
+      "bytes": 10555,
+      "sha256": "56c614d6d75fd3c35c76ec3a2912e175d6075258646c7f1b82c533247a7da040"
+    },
+    {
+      "file": "audio/vo/mojo_taunt_1.mp3",
+      "bytes": 10427,
+      "sha256": "86f39c843fba03c549910ccd9eb14e4b68e263bb7c4cc23e04bcf36282b862b3"
+    },
+    {
+      "file": "audio/vo/mojo_taunt_2.mp3",
+      "bytes": 7458,
+      "sha256": "b08b9d3a1ced649ee8bf6cbb3521b72201a508466fb44a97f04c5ed9a9e6adcb"
+    },
+    {
+      "file": "audio/vo/mojo_upgrade.mp3",
+      "bytes": 7000,
+      "sha256": "5f7526580d07f13721b376ecc115cf6759fe6d3e68224c3156489b0cf1507b6d"
+    },
+    {
+      "file": "audio/vo/mojo_win.mp3",
+      "bytes": 7199,
+      "sha256": "ab1bb45a1a86e226f30307f35f7076964fa3f326b5c777483923a270bb98a244"
+    },
+    {
+      "file": "audio/vo/rat_hurt_1.mp3",
+      "bytes": 12788,
+      "sha256": "58351a127902ebbfbc877ca90eee5af3b504e86c0d8110bd4679263cfe6cde27"
+    },
+    {
+      "file": "audio/vo/rat_hurt_2.mp3",
+      "bytes": 10265,
+      "sha256": "67390c3457c1d6c0b627115699a8d76a09db2ef8b3d2167fdfaeaf08e27c389c"
+    },
+    {
+      "file": "audio/vo/rat_kill_1.mp3",
+      "bytes": 14042,
+      "sha256": "b07c8e0296b782b1093976cbf8c123410213744b912acc465d85fa70d45f0c0d"
+    },
+    {
+      "file": "audio/vo/rat_kill_2.mp3",
+      "bytes": 13939,
+      "sha256": "93211f1557fdd814b0606221e3c1138f4584d5526c9eedbd4e865dc062b4a04d"
+    },
+    {
+      "file": "audio/vo/rat_pick.mp3",
+      "bytes": 11854,
+      "sha256": "93d319eddce1db6cde9f37efb5dbc4aa38fcfa10367e1cbdff6538689edf6be0"
+    },
+    {
+      "file": "audio/vo/rat_special.mp3",
+      "bytes": 7564,
+      "sha256": "27e4af8141489888467c632fd419884b8880407faf474fd25aa9bafd4b60f21e"
+    },
+    {
+      "file": "audio/vo/rat_taunt_1.mp3",
+      "bytes": 11280,
+      "sha256": "bc6b58256bcd2e3c3932a58c213d5a171a02f89cd17a3e130243b23183ef963e"
+    },
+    {
+      "file": "audio/vo/rat_taunt_2.mp3",
+      "bytes": 14352,
+      "sha256": "9937bbd25c2e90ffe3691b8756aab5ffa719a067d36e9dd8695fcaf9b2516a92"
+    },
+    {
+      "file": "audio/vo/rat_win.mp3",
+      "bytes": 18805,
+      "sha256": "62089c123d3422b22a800da58b44c0ad834fd73687812ebbb3891bc087f4a956"
+    },
+    {
+      "file": "audio/vo/scrape_hit.mp3",
+      "bytes": 14298,
+      "sha256": "6391ec08c59f6580d3dda5cf9c9e4529b7c1ee8722930aa43dff2c28ad3a2172"
+    },
+    {
+      "file": "audio/vo/scrape_hurt_1.mp3",
+      "bytes": 17365,
+      "sha256": "df1046bb2597fcea5f21525250a345e257357c15c9d520a9de4c4eb934784bb9"
+    },
+    {
+      "file": "audio/vo/scrape_hurt_2.mp3",
+      "bytes": 18251,
+      "sha256": "12beeeaa2c4b2e3e4cea8f1d692907f00cebd20e3305c66aa751b28d932f411f"
+    },
+    {
+      "file": "audio/vo/scrape_kill_1.mp3",
+      "bytes": 11957,
+      "sha256": "5c3aa19d55142910cf21ad62d7a912cee2d7b424211dd2eb95153fdf43d1e33b"
+    },
+    {
+      "file": "audio/vo/scrape_kill_2.mp3",
+      "bytes": 13491,
+      "sha256": "07fb071cfd8d9e7177b8cc2541e44b6dbd75765d7eb4ef7bf6253eb700ffe087"
+    },
+    {
+      "file": "audio/vo/scrape_lose.mp3",
+      "bytes": 20330,
+      "sha256": "7520d60785158d4fddbfa2dc2abb97709546ce96b1d6563013183fd30353e253"
+    },
+    {
+      "file": "audio/vo/scrape_lowhp.mp3",
+      "bytes": 15935,
+      "sha256": "e8904c0ccb939bd1d9d85a1f2281d5e275c9dbd6b0c50bf5f5c5583809f7043f"
+    },
+    {
+      "file": "audio/vo/scrape_overtake.mp3",
+      "bytes": 13410,
+      "sha256": "baa7033776251c35d5c9c61a7e3822a5d6dd6dd3f43eb20d19087cac0911dd98"
+    },
+    {
+      "file": "audio/vo/scrape_pick_1.mp3",
+      "bytes": 17732,
+      "sha256": "b6f75b0d337cfb2f712aeca4643f189196939108d7e41d3957dcd8b9a6daf572"
+    },
+    {
+      "file": "audio/vo/scrape_pick_2.mp3",
+      "bytes": 16870,
+      "sha256": "c67603bdd966da0dd09a2ae6b6633da1174669fd273dea1efae69dd05acfcdcc"
+    },
+    {
+      "file": "audio/vo/scrape_pickup.mp3",
+      "bytes": 17370,
+      "sha256": "12963a5f49b029feb37cfd080004a06beda8a7353621b3c487ecee9a832879e5"
+    },
+    {
+      "file": "audio/vo/scrape_podium.mp3",
+      "bytes": 14039,
+      "sha256": "666c1be2cd6e935b77588e574c989a22b4f5f6e889d5a1f95f367ee028f1d940"
+    },
+    {
+      "file": "audio/vo/scrape_special.mp3",
+      "bytes": 11410,
+      "sha256": "0ed2c4f0b51f9e5b50a8be55c9345e5ae882a4699bcb23103c7365b276d73407"
+    },
+    {
+      "file": "audio/vo/scrape_taunt_1.mp3",
+      "bytes": 15624,
+      "sha256": "a3c2a26c3752fe24e941ad36007bf093bc43595c187e4ceb9b7304dea8bd9f66"
+    },
+    {
+      "file": "audio/vo/scrape_taunt_2.mp3",
+      "bytes": 14792,
+      "sha256": "544453f102a22c70c86e5b6d55651b1ee82dee8fb54ada8dbf74523d22e096e3"
+    },
+    {
+      "file": "audio/vo/scrape_upgrade.mp3",
+      "bytes": 16324,
+      "sha256": "2484bce71d1cf7d5601645aed051086326a81f2dc602517f08e3cd4807a316ac"
+    },
+    {
+      "file": "audio/vo/scrape_win_1.mp3",
+      "bytes": 13442,
+      "sha256": "e6934aaf82d3f1a60b2fee49e99b7d715ac7a6c4c30d1c6d7e53cc2a3fc2c55c"
+    },
+    {
+      "file": "audio/vo/scrape_win_2.mp3",
+      "bytes": 16227,
+      "sha256": "3af0d7b51472c76835ddaf5703f9d6269a32bb5c73bc83195d6d93d1955c3572"
+    },
+    {
+      "file": "audio/vo/stella_hit_1.mp3",
+      "bytes": 15157,
+      "sha256": "6876a2da48e7254f24222e8d1b16f8ecd93d4e59bade05383fbfaee6890f087d"
+    },
+    {
+      "file": "audio/vo/stella_hit_2.mp3",
+      "bytes": 14304,
+      "sha256": "26f09a637acf74e62e9b82e973ae763eb614f1b689855ef466685ec9d4b40d25"
+    },
+    {
+      "file": "audio/vo/stella_hurt.mp3",
+      "bytes": 13076,
+      "sha256": "f2660a2192a59e61c9a62087881b3a32c53b4eb8cd372e27602ceb3852a83bd3"
+    },
+    {
+      "file": "audio/vo/stella_kill.mp3",
+      "bytes": 11179,
+      "sha256": "0e5d52d861a5344c8ac1e163316ae2a55c0a8dff00d80a3441dd20f727ea68df"
+    },
+    {
+      "file": "audio/vo/stella_lose.mp3",
+      "bytes": 13702,
+      "sha256": "d6f9620653197a864e64a60253b74d76a5cef68b3691d939575c0021032ea39c"
+    },
+    {
+      "file": "audio/vo/stella_lowhp.mp3",
+      "bytes": 14454,
+      "sha256": "f41d6bccde22c9f1b1f66f627e5f361547f7fc2d116f98abf0426aa3d3f4de57"
+    },
+    {
+      "file": "audio/vo/stella_overtake_1.mp3",
+      "bytes": 15807,
+      "sha256": "41546a34315ff2eb701925ee4ffc4282d60b0e9bd0bdc621f673acddce2e823b"
+    },
+    {
+      "file": "audio/vo/stella_overtake_2.mp3",
+      "bytes": 12921,
+      "sha256": "cfdd6e1619e350bfeab7d12b6b6a7468b04b67bd4b318123a48cf0a0e32292ba"
+    },
+    {
+      "file": "audio/vo/stella_pick.mp3",
+      "bytes": 20619,
+      "sha256": "0270035e752bd04f752c1c32b25e31c6610c642321e96f730346b247b827420f"
+    },
+    {
+      "file": "audio/vo/stella_pickup.mp3",
+      "bytes": 12378,
+      "sha256": "9d84d5dfe4568b24cd05a223746bb8507209c846f2ee2a68358c62410f7a4fc4"
+    },
+    {
+      "file": "audio/vo/stella_podium.mp3",
+      "bytes": 11804,
+      "sha256": "e4f9d3393b26a708f54f17349a4d9cc7c797eeab7590e7686b85f68f7273e669"
+    },
+    {
+      "file": "audio/vo/stella_special.mp3",
+      "bytes": 7928,
+      "sha256": "1d4fc9f62e026b7058143a54592579e3a813902b947ef5e0d1e0706b0b7f5224"
+    },
+    {
+      "file": "audio/vo/stella_taunt_1.mp3",
+      "bytes": 12713,
+      "sha256": "1e06758826d84304da7d05598c8894dd93b64bee07f21ac52e8c60ff28e4d49e"
+    },
+    {
+      "file": "audio/vo/stella_taunt_2.mp3",
+      "bytes": 14247,
+      "sha256": "91cccceb8dbfd904b8bcaccdfbdfab7c466de3a91ea7ee0eed0493fac0dd626e"
+    },
+    {
+      "file": "audio/vo/stella_upgrade.mp3",
+      "bytes": 10791,
+      "sha256": "2d87bc4d2e1441dc29355a7c72aa330a4e49eaf853587ee70fed48dfc0ae88cc"
+    },
+    {
+      "file": "audio/vo/stella_win.mp3",
+      "bytes": 13292,
+      "sha256": "f1b99c7fa9ad65bfc4f094b234692b6fa5ed5e4205be3f61a1f2306f56f28320"
+    },
+    {
+      "file": "audio/vo/vermin_hit_1.mp3",
+      "bytes": 13391,
+      "sha256": "0fb550d2c302b27ba7345999675b3eb6c858ecf7db5df96b72918a71cc5eb050"
+    },
+    {
+      "file": "audio/vo/vermin_hit_2.mp3",
+      "bytes": 12502,
+      "sha256": "64410e0047360e75194529aad7cbe8c3f3ad269b6126c38c0d23ed5f0fdfcfc5"
+    },
+    {
+      "file": "audio/vo/vermin_hurt.mp3",
+      "bytes": 13230,
+      "sha256": "b052fa8c147e1614de6a029028d3b640e1c1a6eb2fbc8f8be43753f62490e805"
+    },
+    {
+      "file": "audio/vo/vermin_kill.mp3",
+      "bytes": 10422,
+      "sha256": "203a6356a30a50c4f5fb4748e821fbe04eb705e9e1b1a7c982f508fd86b7fcc2"
+    },
+    {
+      "file": "audio/vo/vermin_lose.mp3",
+      "bytes": 13473,
+      "sha256": "245b2ee52b3b1f5e5484743191e45f9d3eed346d6525fb2baf84b5057077a566"
+    },
+    {
+      "file": "audio/vo/vermin_lowhp.mp3",
+      "bytes": 11076,
+      "sha256": "24ac6b6457f8309a5383167381bd73228cacb337eae07e299205e0f22dfb64db"
+    },
+    {
+      "file": "audio/vo/vermin_overtake_1.mp3",
+      "bytes": 10453,
+      "sha256": "dd291a5e0f19ce9ec62eb601e03e373f3958b335c169335308e736f053fa16f2"
+    },
+    {
+      "file": "audio/vo/vermin_overtake_2.mp3",
+      "bytes": 15040,
+      "sha256": "2dbabd74625225311748beb6f3f80224c636b133ea56fd71e97341139e88367e"
+    },
+    {
+      "file": "audio/vo/vermin_pick.mp3",
+      "bytes": 11934,
+      "sha256": "48fdfa7d904f9b564fe5917436edbafacfbc29982c0f0540f955f3b63381bf7c"
+    },
+    {
+      "file": "audio/vo/vermin_pickup.mp3",
+      "bytes": 13779,
+      "sha256": "45b5a5fea13196b3d25b93c24b0c053dd0bbfee74981e8a447de0fbeba412155"
+    },
+    {
+      "file": "audio/vo/vermin_podium.mp3",
+      "bytes": 12274,
+      "sha256": "803510e3067eba2595c46bcbd30c9dae3a4da22473b19d5c9a51cb59918e8290"
+    },
+    {
+      "file": "audio/vo/vermin_special.mp3",
+      "bytes": 11854,
+      "sha256": "c1a046d6a21c970bb05aed4ea6ce78a655a0a763bd49119f6c54048d2e0becd0"
+    },
+    {
+      "file": "audio/vo/vermin_taunt_1.mp3",
+      "bytes": 14513,
+      "sha256": "d82855b425c24228ea5c7a08819d5f879f48222a89ddcb4c104a0eb9f8c1b9b0"
+    },
+    {
+      "file": "audio/vo/vermin_taunt_2.mp3",
+      "bytes": 14336,
+      "sha256": "4d9c5d601b11c0518d09ab5b9b977a1a6f0bd787cf56d7ddd4f1c8bf06fb80fb"
+    },
+    {
+      "file": "audio/vo/vermin_upgrade.mp3",
+      "bytes": 12009,
+      "sha256": "228ae0c8faef630f166b8e312cc64b8869b0a212ccbf33f2b6b054b6f817bf3a"
+    },
+    {
+      "file": "audio/vo/vermin_win.mp3",
+      "bytes": 15079,
+      "sha256": "225fccd86ae1fe4ad2f3b7e786bc2817fcdd37dffa2b1f7534f4a694a6688083"
+    },
+    {
+      "file": "audio/vo/vexx_hit_1.mp3",
+      "bytes": 10815,
+      "sha256": "7e506dcb244adc5a97a2dd3ca2a1c978684edc746aea1d48d7f89f8f354b3f34"
+    },
+    {
+      "file": "audio/vo/vexx_hit_2.mp3",
+      "bytes": 11341,
+      "sha256": "8a4b16139d26389b08862515c50b11fd231d5842d3b7a938476d94b687344e40"
+    },
+    {
+      "file": "audio/vo/vexx_hurt.mp3",
+      "bytes": 9746,
+      "sha256": "ef74e0d02bba490d09fd849a62facfb625cd5deb6fb437fd330fd31472e22bc7"
+    },
+    {
+      "file": "audio/vo/vexx_kill.mp3",
+      "bytes": 20024,
+      "sha256": "a11de8f6df2faa9ece43820596ebc408d09d60a04d8107363e0967c3e8300610"
+    },
+    {
+      "file": "audio/vo/vexx_lose.mp3",
+      "bytes": 12448,
+      "sha256": "f60aad88657ac8a110093c7646192726c5bcc378f766d2ec7c963e549f5d432b"
+    },
+    {
+      "file": "audio/vo/vexx_lowhp.mp3",
+      "bytes": 17755,
+      "sha256": "393a00562b43cb28570f9f4ec13f582c68ccc6c95070205fa9c5c06671380ad1"
+    },
+    {
+      "file": "audio/vo/vexx_overtake_1.mp3",
+      "bytes": 14147,
+      "sha256": "e9b09fccd9df544971e44287c5b92b7c6bd79128495da0e1241e939accec120d"
+    },
+    {
+      "file": "audio/vo/vexx_overtake_2.mp3",
+      "bytes": 9488,
+      "sha256": "d6d7cd9b9c24ff82211f612903e7e34f2bbf4323815d1bd76856506a5cd86a59"
+    },
+    {
+      "file": "audio/vo/vexx_pick.mp3",
+      "bytes": 20572,
+      "sha256": "2f908af9b921a5652f700f4004596e284cbd8f29f5e40a462cab47226f970190"
+    },
+    {
+      "file": "audio/vo/vexx_pickup.mp3",
+      "bytes": 9799,
+      "sha256": "a9891443c575aa8f391e610287d67c3721e9b828a4329144dff99dcf87d188a2"
+    },
+    {
+      "file": "audio/vo/vexx_podium.mp3",
+      "bytes": 16644,
+      "sha256": "179d22332b50b110edfda2eb60797f4f8b456de56454d580c1b38173b92b7ef4"
+    },
+    {
+      "file": "audio/vo/vexx_special.mp3",
+      "bytes": 7043,
+      "sha256": "940c7e27a0941aff08e70aba4489017472d6a1a752df335e0d6ec3920a1c06e4"
+    },
+    {
+      "file": "audio/vo/vexx_taunt_1.mp3",
+      "bytes": 15526,
+      "sha256": "97db8ffe526297d337de70f173954b31f59bd22fe4be37276333124a13870e6e"
+    },
+    {
+      "file": "audio/vo/vexx_taunt_2.mp3",
+      "bytes": 12272,
+      "sha256": "5369ef540af6c5abd48e18d402892a2539767393d690da0cc29c751c4841594e"
+    },
+    {
+      "file": "audio/vo/vexx_upgrade.mp3",
+      "bytes": 14068,
+      "sha256": "6eed3845edb5dacc7f632d594b8f0ac2cf8f33c078eb2ab083ad7d883cce5bb2"
+    },
+    {
+      "file": "audio/vo/vexx_win.mp3",
+      "bytes": 19064,
+      "sha256": "3d2577567e0a7cb0b8fd02093ee520ebc1414285d3dfecea0e1fed9b6d6e9a16"
+    },
+    {
+      "file": "index.html",
+      "bytes": 25552,
+      "sha256": "5b79f647a89044ddf7b45ef44e7f4c30b34aecb0b45867d42c2fdd677591be84"
+    },
+    {
+      "file": "offline-sw.js",
+      "bytes": 13825,
+      "sha256": "7d1429743561baeae8f33659f16840ee425eda837a33f1565551775635778314"
+    }
+  ]
+}

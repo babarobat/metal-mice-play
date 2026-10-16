@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<meta name="theme-color" content="#10121c" />
+<title data-i18n="game_title">Метал Мыши</title>
+<!-- Yandex Games SDK. Served by the platform at the game root; 404s locally (handled). -->
+
+  <script type="module" crossorigin src="./assets/index-CBWHn1ra.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/style-CBxZqjyE.css">
+</head>
+<body>
+<div id="app">
+  <div id="rotate-device" class="hidden" role="status" aria-live="polite">
+    <span class="rotate-icon" aria-hidden="true">↻</span>
+    <h2 data-i18n="rotate_title">Поверни телефон</h2>
+    <p data-i18n="rotate_hint">Метал Мыши играются в горизонтальном положении.</p>
+  </div>
+  <div id="stage">
+    <canvas id="game"></canvas>
+
+    <!-- ── juice layers over the canvas ──────────────────── -->
+    <div id="popups" aria-hidden="true"></div>
+    <div id="announce" aria-hidden="true"></div>
+    <div id="flash" aria-hidden="true"></div>
+    <div id="vignette" aria-hidden="true"></div>
+
+    <!-- ── HUD (match only) ──────────────────────────────── -->
+    <header id="hud" class="hidden">
+      <div class="hud-left">
+        <div id="hud-portrait" aria-hidden="true"></div>
+        <div class="hud-bars">
+          <div class="bar hp"><i id="hud-hp-ghost"></i><i id="hud-hp-fill"></i><b id="hud-hp-num">100</b></div>
+          <div class="bar nitro"><i id="hud-nitro-fill"></i></div>
+          <div id="hud-special" class="special-row">
+            <div id="hud-special-icon" aria-hidden="true"></div>
+            <div class="bar special"><i id="hud-special-fill"></i><b id="hud-special-label"></b></div>
+            <span class="key-hint" aria-hidden="true">Q</span>
+          </div>
+          <div class="hud-weapon-row">
+            <div id="hud-weapon" class="weapon-tag">TWIN VULCANS</div>
+            <div id="hud-ammo" class="ammo-tag hidden">▴ 8</div>
+          </div>
+          <div id="hud-perks"></div>
+        </div>
+      </div>
+      <div id="hud-timer" class="race">0:00.0</div>
+      <div id="hud-race" class="hidden"><b id="hud-pos" class="pos">-</b><span id="hud-lapwrap"><span data-i18n="lap_short">КРУГ</span> <b id="hud-lap">1/3</b></span></div>
+      <div id="hud-turn" class="hidden" aria-live="off"><b id="hud-turn-arrow" aria-hidden="true">↱</b><span id="hud-turn-label"></span></div>
+      <div class="hud-right">
+        <div id="hud-score"></div>
+        <button class="round-btn" id="btn-pause" type="button" aria-label="Pause">❚❚</button>
+        <button class="round-btn" id="btn-sound" type="button" aria-label="Sound"><span id="ui-sound-ico">🔊</span></button>
+        <button class="round-btn hidden" id="btn-settings-top" type="button" aria-label="Settings">⚙️</button>
+      </div>
+    </header>
+    <div id="killfeed" aria-hidden="true"></div>
+    <div id="achievement-widgets" class="hidden" aria-live="polite" aria-atomic="true"></div>
+    <canvas id="minimap" width="150" height="150" class="hidden" aria-hidden="true"></canvas>
+
+    <!-- ── touch controls (shown on touch devices) ───────── -->
+    <div id="touch" class="hidden">
+      <div id="steer-zone" role="group" aria-label="Steering">
+        <button id="btn-steer-left" type="button" aria-label="Steer left">◀</button>
+        <button id="btn-steer-right" type="button" aria-label="Steer right">▶</button>
+      </div>
+      <div class="touch-btns">
+        <button id="btn-brake" type="button"><span aria-hidden="true">▼</span><span data-i18n="touch_brake">ТОРМОЗ</span><span data-i18n="touch_reverse">НАЗАД</span></button>
+        <button id="btn-special" type="button" aria-label="Special"><span id="btn-special-icon" aria-hidden="true"></span></button>
+        <button id="btn-bomb" type="button">💣</button>
+        <button id="btn-nitro" type="button">NITRO</button>
+        <button id="btn-fire" type="button">FIRE</button>
+      </div>
+    </div>
+
+    <!-- ── screens ───────────────────────────────────────── -->
+    <section id="screen-menu" class="screen hidden">
+      <div class="menu-inner">
+        <div id="menu-logo" aria-hidden="true">
+          <span class="logo-top">METAL</span>
+          <span class="logo-bottom">MICE</span>
+        </div>
+        <p class="tagline" data-i18n="tagline">Мыши-рокеры режутся в мясорубку на Марсе</p>
+        <div class="menu-modes">
+          <div id="mode-ribbon" class="mode-ribbon" role="group" aria-label="Modes">
+            <button class="mode-btn" id="btn-story" type="button"><span class="mode-poster" aria-hidden="true"></span><span class="mode-title" data-i18n="mode_story">СЮЖЕТ</span><small id="mode-story-sub"></small></button>
+            <button class="mode-btn" id="btn-play" type="button"><span class="mode-poster" aria-hidden="true"></span><span class="mode-title" data-i18n="mode_race">ЗАЕЗД</span><small data-i18n="mode_race_sub">одна гонка</small></button>
+            <button class="mode-btn" id="btn-roam" type="button"><span class="mode-poster" aria-hidden="true"></span><span class="mode-title" data-i18n="mode_roam">СВОБОДНАЯ ЕЗДА</span><small data-i18n="mode_roam_sub">исследуй карту</small></button>
+            <button class="mode-btn" id="btn-cup" type="button"><span class="mode-poster" aria-hidden="true"></span><span class="mode-title" data-i18n="mode_cup">ТУРНИР</span><small id="mode-cup-sub"></small></button>
+            <button class="mode-btn" id="btn-daily" type="button"><span class="mode-poster" aria-hidden="true"></span><span class="mode-title" data-i18n="cup_daily">ТУРНИР ДНЯ</span><small id="mode-daily-sub"></small></button>
+            <button class="mode-btn" id="btn-mega" type="button"><span class="mode-poster" aria-hidden="true"></span><span class="mode-title" data-i18n="mode_mega">МЕГА ГОНКА</span><small id="mode-mega-sub"></small></button>
+          </div>
+          <button class="mode-arrow mode-prev" id="mode-prev" type="button" aria-label="Previous mode">&#9664;</button>
+          <button class="mode-arrow mode-next" id="mode-next" type="button" aria-label="Next mode">&#9654;</button>
+          <div id="mode-dots" class="mode-dots" role="group" aria-label="Modes"></div>
+        </div>
+        <p id="mode-description" aria-live="polite"></p>
+        <div class="menu-row">
+          <button class="round-btn big profile-menu-btn" id="btn-profile" type="button" aria-label="Досье" title="Досье"><span id="profile-menu-icon" aria-hidden="true"></span><i id="profile-unread" class="hidden" aria-hidden="true"></i></button>
+          <button class="round-btn big" id="btn-top" type="button" aria-label="Leaders">🏆</button>
+          <button class="round-btn big" id="btn-settings" type="button" aria-label="Settings">⚙️</button>
+        </div>
+        <div class="menu-local-row">
+          <button class="main-btn ghost controls-link" type="button" data-open-controls data-i18n="controls_title">Управление</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-chars" class="screen hidden">
+      <h2 id="chars-title" data-i18n="choose_driver">Выбери тачку</h2>
+      <div class="chars-heading-row">
+        <p id="chars-sub" class="screen-sub hidden"></p>
+        <div id="race-options" class="race-options hidden">
+          <div class="players-row">
+            <span id="race-select-mode"></span>
+            <div class="player-count-switch" role="group" aria-label="Players" id="player-count-switch">
+              <button id="btn-players-one" type="button" aria-pressed="true" data-i18n="players_one">1 игрок</button>
+              <button id="btn-players-two" type="button" aria-pressed="false" data-i18n="players_two">2 игрока</button>
+            </div>
+            <small id="players-device-note" class="coop-device-note hidden" data-i18n="coop_touch_note"></small>
+          </div>
+          <div id="local-player-tabs" class="local-player-tabs hidden" role="group" aria-label="Choose player">
+            <button id="btn-local-p1" type="button" aria-pressed="true"></button>
+            <button id="btn-local-p2" type="button" aria-pressed="false"></button>
+          </div>
+        </div>
+      </div>
+      <div id="char-grid"></div>
+      <div id="char-detail">
+        <div id="char-art">
+          <div id="char-portrait"></div>
+          <div id="char-car"></div>
+        </div>
+        <div id="char-info">
+          <h3 id="char-name">REDLINE</h3>
+          <p id="char-lock" class="lock-note hidden"></p>
+          <p id="char-driver">Rocco Revs</p>
+          <p id="char-hero"></p>
+          <div id="char-bars"></div>
+          <p id="char-weapon"></p>
+          <p id="char-desc"></p>
+          <p id="char-phrase"></p>
+        </div>
+        <div id="char-preview" class="hidden" aria-hidden="true">
+          <canvas id="char-preview-canvas"></canvas>
+          <div id="char-preview-cap">
+            <span id="char-preview-tag"></span>
+            <span id="char-preview-name"></span>
+            <span id="char-preview-key"></span>
+          </div>
+          <div id="char-preview-steps"><i></i><i></i></div>
+        </div>
+        <div id="char-special">
+          <div id="char-special-icon" aria-hidden="true"></div>
+          <div id="char-special-text">
+            <p id="char-special-tag" data-i18n="special_tag">Спецприём</p>
+            <p id="char-special-name"></p>
+            <p id="char-special-desc"></p>
+          </div>
+        </div>
+      </div>
+      <div class="screen-nav">
+        <button class="main-btn ghost" id="btn-chars-back" type="button" data-i18n="back">Назад</button>
+        <button class="main-btn ghost controls-link" type="button" data-open-controls data-i18n="controls_title">Управление</button>
+        <button class="main-btn" id="btn-chars-ok" type="button" data-i18n="next">Дальше</button>
+      </div>
+    </section>
+
+    <section id="screen-maps" class="screen hidden">
+      <h2 data-i18n="choose_map">Выбери трассу</h2>
+      <p id="race-setup-summary" class="screen-sub race-setup-summary"></p>
+      <div id="map-grid" class="scroll-pane"></div>
+      <div class="screen-nav">
+        <button class="main-btn ghost" id="btn-maps-back" type="button" data-i18n="back">Назад</button>
+        <button class="main-btn" id="btn-maps-ok" type="button" data-i18n="start_battle">Старт</button>
+      </div>
+    </section>
+
+    <section id="screen-story" class="screen hidden">
+      <h2 data-i18n="story_title">Сюжет</h2>
+      <div id="chapter-grid" class="scroll-pane"></div>
+      <div class="screen-nav">
+        <button class="main-btn ghost" id="btn-story-back" type="button" data-i18n="back">Назад</button>
+        <button class="main-btn" id="btn-story-ok" type="button" data-i18n="pick_driver">Выбрать гонщика</button>
+      </div>
+    </section>
+
+    <section id="screen-cup" class="screen hidden">
+      <h2 id="cup-title"></h2>
+      <p id="cup-sub" class="screen-sub"></p>
+      <p class="cup-rules" data-i18n="cup_rules"></p>
+      <p id="cup-current" class="screen-sub"></p>
+      <div class="cup-options">
+        <button class="main-btn hidden" id="btn-cup-continue" type="button"></button>
+        <button class="main-btn" id="btn-cup-short" type="button" data-i18n="cup_short"></button>
+        <button class="main-btn" id="btn-cup-long" type="button" data-i18n="cup_long"></button>
+      </div>
+      <div class="screen-nav"><button class="main-btn ghost" id="btn-cup-back" type="button" data-i18n="back">Назад</button></div>
+    </section>
+
+    <section id="screen-cupintro" class="screen hidden">
+      <h2 id="cupintro-title"></h2>
+      <p id="cupintro-sub" class="screen-sub"></p>
+      <div class="cup-content scroll-pane">
+        <p id="cupintro-modifier" class="cup-rules"></p>
+        <div id="cupintro-field"></div>
+        <h4 data-i18n="cup_tracks"></h4>
+        <ol id="cupintro-tracks"></ol>
+        <p class="cup-rules" data-i18n="cup_rules"></p>
+      </div>
+      <div class="screen-nav">
+        <button class="main-btn ghost" id="btn-cupintro-menu" type="button" data-i18n="main_menu">В меню</button>
+        <button class="main-btn" id="btn-cupintro-go" type="button" data-i18n="start_battle">Старт</button>
+      </div>
+    </section>
+
+    <section id="screen-cupdone" class="screen hidden">
+      <h2 data-i18n="cup_final"></h2>
+      <p id="cupdone-champion" class="screen-sub"></p>
+      <p id="cupdone-place" class="screen-sub"></p>
+      <p id="cupdone-best" class="screen-sub"></p>
+      <div id="cupdone-standings" class="cup-content scroll-pane"></div>
+      <div class="screen-nav"><button class="main-btn" id="btn-cupdone-menu" type="button" data-i18n="main_menu">В меню</button></div>
+    </section>
+
+    <section id="screen-mega" class="screen hidden">
+      <h2 data-i18n="mode_mega"></h2>
+      <p class="cup-rules" data-i18n="mega_rules"></p>
+      <p id="mega-current" class="screen-sub"></p>
+      <div class="cup-options">
+        <button class="main-btn hidden" id="btn-mega-continue" type="button" data-i18n="continue_run"></button>
+        <button class="main-btn" id="btn-mega-new" type="button" data-i18n="mega_new"></button>
+      </div>
+      <div class="screen-nav"><button class="main-btn ghost" id="btn-mega-back" type="button" data-i18n="back"></button></div>
+    </section>
+
+    <section id="screen-megaintro" class="screen hidden">
+      <h2 data-i18n="mode_mega"></h2>
+      <p id="megaintro-driver" class="screen-sub"></p>
+      <div class="mega-content scroll-pane">
+        <p class="cup-rules" data-i18n="mega_rules"></p>
+      </div>
+      <div class="screen-nav">
+        <button class="main-btn ghost" id="btn-megaintro-menu" type="button" data-i18n="main_menu"></button>
+        <button class="main-btn" id="btn-megaintro-go" type="button" data-i18n="start_battle"></button>
+      </div>
+    </section>
+
+    <section id="screen-grinder" class="screen hidden">
+      <h2 data-i18n="mega_grinder"></h2>
+      <div class="mega-content grinder-content scroll-pane">
+        <p id="grinder-series" class="screen-sub"></p>
+        <div class="grinder-stage">
+          <div id="grinder-art" aria-hidden="true"></div>
+          <b id="grinder-impact" class="hidden" aria-hidden="true"></b>
+          <button class="main-btn ghost" id="btn-grinder-skip" type="button" data-i18n="skip"></button>
+        </div>
+        <p id="grinder-driver" aria-live="polite"></p>
+        <div id="grinder-cast"></div>
+        <div id="grinder-summary">
+          <p id="grinder-verdict" class="cup-rules"></p>
+          <div id="grinder-standings"></div>
+        </div>
+      </div>
+      <div id="grinder-nav" class="screen-nav">
+        <button class="main-btn ghost" id="btn-grinder-menu" type="button" data-i18n="main_menu"></button>
+        <button class="main-btn reward-action hidden" id="btn-mega-chance" type="button" data-i18n="mega_second_chance"></button>
+        <button class="main-btn" id="btn-grinder-next" type="button"></button>
+      </div>
+    </section>
+
+    <section id="screen-megadone" class="screen hidden">
+      <h2 id="megadone-title"></h2>
+      <p id="megadone-result" class="screen-sub"></p>
+      <div class="mega-content scroll-pane">
+        <div id="megadone-podium" class="mega-podium"></div>
+        <h4 data-i18n="mega_history"></h4>
+        <div id="megadone-history"></div>
+      </div>
+      <div class="screen-nav"><button class="main-btn" id="btn-megadone-menu" type="button" data-i18n="main_menu"></button></div>
+    </section>
+
+    <section id="screen-garage" class="screen hidden">
+      <div class="garage-wrap">
+        <div id="garage-roxy" aria-hidden="true"></div>
+        <div class="garage-head">
+          <div class="garage-title">
+            <h2 data-i18n="garage_title">Мастерская</h2>
+            <p id="garage-chapter"></p>
+          </div>
+          <div class="garage-wallet">
+            <div id="garage-money" class="money-tag">0</div>
+            <button class="main-btn ghost" id="btn-garage-undo" type="button" data-i18n="garage_undo" disabled></button>
+          </div>
+          <span id="garage-feedback" class="sr-only" role="status" aria-live="polite"></span>
+        </div>
+        <div class="garage-body scroll-pane">
+          <div id="garage-reward" class="g-card hidden" role="region" aria-labelledby="gr-title">
+            <div class="gr-earned"><h4 id="gr-title" class="g-head" data-i18n="received_race_reward"></h4><div id="gr-payout" class="money-tag"></div><small id="gr-note"></small></div>
+            <p id="gr-detail"></p>
+            <button class="main-btn reward-action" id="btn-garage-x2" type="button"></button>
+            <p id="gr-spend"></p>
+          </div>
+          <div class="garage-col">
+            <div id="garage-car" class="g-card"></div>
+            <div class="g-card">
+              <h4 class="g-head" data-i18n="upgrades">Апгрейды</h4>
+              <p class="garage-undo-hint" data-i18n="garage_undo_hint"></p>
+              <div id="garage-upg"></div>
+            </div>
+          </div>
+          <div class="garage-col">
+            <div id="garage-next" class="g-card"></div>
+            <div class="g-card">
+              <h4 id="garage-races-title" class="g-head">Трассы главы</h4>
+              <div id="garage-races"></div>
+            </div>
+            <div id="garage-cup" class="g-card hidden">
+              <p id="garage-modifier" class="cup-rules"></p>
+              <h4 class="g-head" data-i18n="cup_standings"></h4>
+              <div id="garage-standings"></div>
+            </div>
+          </div>
+        </div>
+        <div class="screen-nav garage-nav">
+          <button class="main-btn ghost" id="btn-garage-menu" type="button" data-i18n="main_menu">В меню</button>
+          <button class="main-btn ghost" id="btn-garage-reset" type="button" data-i18n="restart_chapter">Заново</button>
+          <button class="main-btn" id="btn-garage-go" type="button" data-i18n="start_battle">Старт</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-results" class="screen hidden">
+      <h2 id="res-title">VICTORY!</h2>
+      <div class="res-body">
+        <div id="res-story" class="hidden">
+          <div class="rs-place"><b id="rs-place">1</b><span data-i18n="place_word">место</span></div>
+          <p id="rs-verdict"></p>
+          <small id="rs-note"></small>
+          <p id="rs-terminal" class="hidden"></p>
+        </div>
+        <div id="res-table"></div>
+        <div id="res-cup" class="cup-content hidden">
+          <h4 id="res-standings-title"></h4>
+          <p id="res-cup-note" class="cup-rules"></p>
+          <div id="res-cup-standings"></div>
+        </div>
+      </div>
+      <div class="screen-nav">
+        <button class="main-btn" id="btn-rematch" type="button" data-i18n="rematch">Ещё раз</button>
+        <button class="main-btn ghost" id="btn-res-chars" type="button" data-i18n="change_char">Сменить тачку</button>
+        <button class="main-btn ghost" id="btn-res-menu" type="button" data-i18n="main_menu">В меню</button>
+        <button class="main-btn hidden" id="btn-res-continue" type="button" data-i18n="continue">Дальше</button>
+      </div>
+    </section>
+
+    <section id="screen-chapterdone" class="screen hidden">
+      <h2 data-i18n="chapter_done">Глава пройдена!</h2>
+      <p id="cd-chapter" class="screen-sub"></p>
+      <div id="cd-card"></div>
+      <div class="screen-nav">
+        <button class="main-btn" id="btn-cd-ok" type="button" data-i18n="continue">Дальше</button>
+      </div>
+    </section>
+
+    <section id="screen-pause" class="screen hidden">
+      <h2 data-i18n="paused">Пауза</h2>
+      <div class="pause-col">
+        <button class="main-btn" id="btn-resume" type="button" data-i18n="resume">Продолжить</button>
+        <button class="main-btn ghost" id="btn-restart" type="button" data-i18n="restart">Заново</button>
+        <button class="main-btn ghost controls-link" type="button" data-open-controls data-i18n="controls_title">Управление</button>
+        <button class="main-btn ghost" id="btn-quit" type="button" data-i18n="main_menu">В меню</button>
+      </div>
+    </section>
+
+    <!-- ── panels (starter pattern) ──────────────────────── -->
+    <div class="panel hidden" id="panel-settings">
+      <div class="panel-box">
+        <h2 data-i18n="settings">Настройки</h2>
+        <button class="row-btn" id="btn-sound-row" type="button"><span data-i18n="sound">Звуки</span><b id="ui-sound-state">ON</b></button>
+        <button class="row-btn" id="btn-music" type="button"><span data-i18n="music">Музыка</span><b id="ui-music-state">ON</b></button>
+        <button class="row-btn" id="btn-lang" type="button"><span data-i18n="language">Язык</span><b id="ui-lang-name">Русский</b></button>
+        <button class="row-btn controls-link" type="button" data-open-controls data-i18n="controls_title">Управление</button>
+        <button class="main-btn" type="button" data-close data-i18n="close">Закрыть</button>
+      </div>
+    </div>
+
+    <div class="panel hidden" id="panel-controls">
+      <div class="panel-box controls-box" role="dialog" aria-modal="true" aria-labelledby="controls-title">
+        <h2 id="controls-title" data-i18n="controls_title"></h2>
+        <p data-i18n="controls_shared"></p>
+        <div class="controls-columns">
+          <section><h3 data-i18n="coop_p1"></h3><div id="controls-p1"></div></section>
+          <section><h3 data-i18n="coop_p2"></h3><div id="controls-p2"></div></section>
+        </div>
+        <p class="controls-secondary" data-i18n="controls_solo_arrows"></p>
+        <details><summary data-i18n="controls_gamepad"></summary><p data-i18n="controls_hint_gamepad"></p><p data-i18n="coop_pad_mapping"></p></details>
+        <details><summary data-i18n="controls_touch"></summary><p data-i18n="controls_hint_touch"></p></details>
+        <button class="main-btn" type="button" data-close data-i18n="close"></button>
+      </div>
+    </div>
+
+    <div class="panel hidden" id="panel-profile">
+      <div class="panel-box profile-box" role="dialog" aria-modal="true" aria-labelledby="profile-title">
+        <h2 id="profile-title" data-i18n="profile">Досье</h2>
+        <div class="profile-summary"><span data-i18n="career_points">Очки славы</span><b id="profile-score">0</b><small id="profile-earned"></small></div>
+        <div class="profile-tabs" role="group" aria-labelledby="profile-title">
+          <button type="button" data-profile-tab="stats" data-i18n="profile_stats" aria-pressed="true">Статистика</button>
+          <button type="button" data-profile-tab="achievements" data-i18n="profile_achievements" aria-pressed="false">Ачивки</button>
+          <button type="button" data-profile-tab="points" data-i18n="profile_points" aria-pressed="false">За что очки</button>
+        </div>
+        <div id="profile-content"></div>
+        <button class="main-btn" type="button" data-close data-i18n="close">Закрыть</button>
+      </div>
+    </div>
+
+    <div class="panel hidden" id="panel-leaders">
+      <div class="panel-box">
+        <h2 data-i18n="leaderboard">Лидеры</h2>
+        <p class="profile-note" data-i18n="lb_career_hint">Очки славы за гонки, разрушения и ачивки.</p>
+        <button class="row-btn" id="btn-lb-rules" type="button" data-i18n="profile_points">За что очки</button>
+        <ol id="ui-leaders"></ol>
+        <button class="main-btn hidden" id="btn-auth" type="button" data-i18n="auth_btn">Войти</button>
+        <button class="main-btn" type="button" data-close data-i18n="close">Закрыть</button>
+      </div>
+    </div>
+
+    <div class="panel hidden" id="panel-confirm">
+      <div class="panel-box">
+        <p id="confirm-text"></p>
+        <div class="confirm-row">
+          <button class="main-btn ghost" id="btn-confirm-no" type="button" data-i18n="cancel">Отмена</button>
+          <button class="main-btn" id="btn-confirm-yes" type="button">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── story dialogue overlay (above screens, below panels) ── -->
+    <div id="dialogue" class="hidden">
+      <button class="main-btn ghost" id="dlg-skip" type="button" data-i18n="skip">Пропустить</button>
+      <div class="dlg-box">
+        <div id="dlg-portrait" aria-hidden="true"></div>
+        <div class="dlg-main">
+          <b id="dlg-name"></b>
+          <p id="dlg-text" aria-live="polite"></p>
+        </div>
+        <i id="dlg-more" class="hidden" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div id="toast" class="hidden" aria-live="polite"></div>
+  </div>
+
+  <div id="boot"><div class="boot-spinner" aria-hidden="true"></div></div>
+</div>
+</body>
+</html>
